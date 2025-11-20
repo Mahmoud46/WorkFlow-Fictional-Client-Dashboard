@@ -1,9 +1,10 @@
 import { useContext, useEffect, useRef, useState, type ReactNode } from "react";
-import { LuBell, LuMessageSquare, LuSearch, LuWorkflow } from "react-icons/lu";
+import { LuBell, LuMessageSquare, LuSearch } from "react-icons/lu";
 import { Context } from "../context/Context";
 import type { IContext } from "../interface/Context.interface";
 import { Link } from "react-router-dom";
 import RecentActivitiesContainer from "./RecentActivitiesContainer";
+import logo from "../assets/workflow.svg";
 
 export default function Header(): ReactNode {
 	const { profileController, setIsChatOpen } = useContext(Context) as IContext;
@@ -29,9 +30,12 @@ export default function Header(): ReactNode {
 	return (
 		<div className="sticky top-0 w-full py-4 px-8 z-50">
 			<div className="glass p-1 pl-4 rounded-full flex justify-between items-center">
-				<Link to={"/"} className="flex gap-1 items-center cursor-pointer">
-					<LuWorkflow className="text-2xl" />
-					<span>WorkFlow</span>
+				<Link to={"/"} className="flex gap-2 items-center cursor-pointer">
+					<img src={logo} alt="workflow" className="h-6" />
+					<p className="text-xl font-semibold">
+						<span>Work</span>
+						<span className="italic">Flow</span>
+					</p>
 				</Link>
 				<div className="relative flex ">
 					<LuSearch className="absolute left-2 top-[50%] translate-y-[-50%]" />
