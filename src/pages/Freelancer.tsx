@@ -29,9 +29,9 @@ export default function Freelancer(): ReactNode {
 	} = useContext(Context) as IContext;
 
 	return (
-		<div className="min-w-[300px] w-[90%] left-[100px] h-[80dvh] top-30 fixed flex items-start justify-center z-20">
+		<div className="min-w-[300px] w-[90%] left-1/2 -translate-x-1/2 lg:translate-x-0 lg:left-[100px] h-[80dvh] top-30 fixed flex items-start justify-center z-20">
 			{freelancersController.include(id as string) && (
-				<div className="glass w-[70%] max-h-[90%] overflow-auto p-4 rounded-2xl flex gap-2 flex-col [scrollbar-width:none] [-ms-overflow-style:none] [&::-webkit-scrollbar]:hidden">
+				<div className="glass md:w-[70%] max-h-[90%] overflow-auto p-4 rounded-2xl flex gap-2 flex-col [scrollbar-width:none] [-ms-overflow-style:none] [&::-webkit-scrollbar]:hidden">
 					<div className="sticky top-0 flex w-full justify-between z-30">
 						<div className="flex items-center gap-2 text-sm font-semibold">
 							<LuUser className="text-base" />
@@ -44,7 +44,7 @@ export default function Freelancer(): ReactNode {
 							<CgClose />
 						</Link>
 					</div>
-					<div className="flex gap-4">
+					<div className="flex gap-4 flex-wrap">
 						<div
 							className={`relative flex-none h-25 w-25  p-0.5 rounded-full ${
 								freelancersController.getFreelancer(id as string).is_online
@@ -67,7 +67,7 @@ export default function Freelancer(): ReactNode {
 								<span className="w-2 h-2 bg-green-400 absolute rounded-full top-[10px] right-[10px]"></span>
 							)}
 						</div>
-						<div className="">
+						<div className="flex flex-col">
 							<h1 className="flex gap-1 text-3xl items-start font-semibold">
 								{freelancersController.getFreelancer(id as string).name}{" "}
 								<LuBadgeCheck className="text-2xl text-green-300" />
@@ -83,7 +83,7 @@ export default function Freelancer(): ReactNode {
 									.getFreelancer(id as string)
 									.skills.join(" | ")}
 							</p>
-							<div className="mt-2 flex gap-4">
+							<div className="mt-2 flex gap-2 sm:gap-4 overflow-auto flex-wrap">
 								<p className="flex items-center gap-1.5">
 									<LuMapPin className="text-base" />
 									<span>
@@ -127,7 +127,7 @@ export default function Freelancer(): ReactNode {
 									</span>
 								</p>
 							</div>
-							<div className="mt-2 flex gap-4">
+							<div className="mt-2 flex gap-2 sm:gap-4 overflow-auto flex-wrap">
 								<button
 									className="flex gap-1.5 items-center bg-white text-gray-900 py-0.5 px-2 text-sm rounded-full cursor-pointer"
 									onClick={() => {
@@ -138,7 +138,7 @@ export default function Freelancer(): ReactNode {
 									<LuMessageSquare /> Chat
 								</button>
 
-								<div className="flex gap-2">
+								<div className="flex gap-2 overflow-auto flex-wrap">
 									{freelancersController
 										.getFreelancer(id as string)
 										.social_media.map((platform, i) => (

@@ -14,7 +14,7 @@ export default function ProjectsStats(): ReactNode {
 	) as IContext;
 
 	return (
-		<div className="flex gap-2 flex-wrap">
+		<div className="flex gap-2 overflow-auto">
 			<div className="flex items-center gap-4 glass p-1 rounded-2xl flex-1 min-w-fit max-w-[180px]">
 				<LuFolder className="ml-1 text-xl flex-none" />
 				<div className="flex-1">

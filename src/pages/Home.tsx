@@ -21,7 +21,7 @@ export default function Home(): ReactNode {
 	return (
 		<>
 			{projectsController.projects && (
-				<div className="gap-2 glass rounded-2xl flex w-full p-4">
+				<div className="gap-2 glass rounded-2xl flex w-full p-2 sm:p-4">
 					<div className="flex flex-1 max-w-full w-fit flex-col gap-2">
 						<h1 className="text-2xl">
 							Welcome back
@@ -32,8 +32,13 @@ export default function Home(): ReactNode {
 						</h1>
 						<Stats />
 						<div className="flex flex-col gap-2">
-							<div className="relative h-[300px] overflow-hidden">
-								<ExpensesGraph />
+							<div className="flex gap-2 flex-col md:flex-row">
+								<div className="flex-1">
+									<ExpensesGraph />
+								</div>
+								<div className="max-w-[350px] flex xl:hidden">
+									<ProjectsStatusPieChartContainer />
+								</div>
 							</div>
 							<div className="glass rounded-2xl w-full">
 								<div className="flex p-2 w-full justify-between">
@@ -81,7 +86,7 @@ export default function Home(): ReactNode {
 							</div>
 						</div>
 					</div>
-					<div className="max-w-[350px] gap-2 flex flex-col flex-none">
+					<div className="max-w-[350px] gap-2 hidden xl:flex flex-col flex-none">
 						<NowDateTime />
 						<ProjectsStatusPieChartContainer />
 						<RecentActivitiesContainer />

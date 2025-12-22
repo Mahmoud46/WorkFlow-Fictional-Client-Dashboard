@@ -28,7 +28,7 @@ export default function Header(): ReactNode {
 		};
 	}, []);
 	return (
-		<div className="sticky top-0 w-full py-4 px-8 z-50">
+		<div className="sticky top-0 w-full p-2 sm:py-4 sm:px-8 z-50">
 			<div className="glass p-1 pl-4 rounded-full flex justify-between items-center">
 				<Link to={"/"} className="flex gap-2 items-center cursor-pointer">
 					<img src={logo} alt="workflow" className="h-6" />
@@ -37,7 +37,7 @@ export default function Header(): ReactNode {
 						<span className="italic">Flow</span>
 					</p>
 				</Link>
-				<div className="relative flex ">
+				<div className="relative hidden md:flex ">
 					<LuSearch className="absolute left-2 top-[50%] translate-y-[-50%]" />
 					<input
 						type="text"

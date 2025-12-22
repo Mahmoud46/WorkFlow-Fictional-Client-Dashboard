@@ -20,7 +20,7 @@ export default function ExpensesGraph(): ReactNode {
 
 	return (
 		<>
-			<div className="absolute flex p-4 pb-0 bg-theme-foreground w-full h-full rounded-xl glass">
+			<div className="flex p-4 pb-0 bg-theme-foreground w-fit h-fit rounded-xl glass flex-col lg:flex-row">
 				<div className="flex-1 flex flex-col gap-2">
 					<h2 className="text-base font-semibold ">
 						Monthly Expenses Overview (2025)
@@ -35,7 +35,7 @@ export default function ExpensesGraph(): ReactNode {
 						the lowest.
 					</p>
 
-					<div className="flex-1">
+					<div className="flex-1 max-h-[200px] min-h-[100px] aspect-5/2">
 						{transactionsController.monthlyExpenses.length > 0 && (
 							<ResponsiveContainer height={"100%"} width={"100%"}>
 								<LineChart data={transactionsController.monthlyExpenses}>
@@ -75,8 +75,8 @@ export default function ExpensesGraph(): ReactNode {
 					</div>
 				</div>
 
-				<div className="flex flex-col gap-2 pl-2 flex-wrap">
-					<div className="flex items-center gap-2 glass p-1 rounded-xl overflow-hidden">
+				<div className="flex flex-row lg:flex-col gap-2 pb-2 lg:pl-2 flex-wrap">
+					<div className="flex items-center gap-2 glass p-1 rounded-xl w-fit min-w-[80px] sm:min-w-[100px]">
 						<LuTrendingUp className="text-green-400" />
 						<div className="">
 							<p className="text-xs opacity-70">
@@ -91,7 +91,7 @@ export default function ExpensesGraph(): ReactNode {
 							</p>
 						</div>
 					</div>
-					<div className="flex items-center gap-2 glass p-1 rounded-xl overflow-hidden">
+					<div className="flex items-center gap-2 glass p-1 rounded-xl w-fit min-w-[80px] sm:min-w-[100px]">
 						<LuTrendingDown className="text-red-400" />
 						<div className="">
 							<p className="text-xs opacity-70">
@@ -109,9 +109,9 @@ export default function ExpensesGraph(): ReactNode {
 							</p>
 						</div>
 					</div>
-					<div className="flex items-center gap-2 glass p-1 rounded-xl overflow-hidden">
-						<BiBarChart className="text-yellow-300" />
-						<div className="">
+					<div className="flex items-center gap-2 glass p-1 rounded-xl w-fit min-w-[80px] sm:min-w-[100px]">
+						<BiBarChart className="text-yellow-300 flex-none" />
+						<div className="flex-none">
 							<p className="text-xs opacity-70">Monthly Average</p>
 							<p className="text-sm">
 								${parseAmount(transactionsController.expensesStats.avg)}

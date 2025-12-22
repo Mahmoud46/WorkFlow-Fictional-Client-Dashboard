@@ -30,9 +30,9 @@ export default function Proposal(): ReactNode {
 	} = useContext(Context) as IContext;
 	const { id } = useParams();
 	return (
-		<div className="min-w-[300px] w-[90%] left-[100px] h-[80dvh] top-30 fixed flex items-start justify-center z-20">
+		<div className="min-w-[300px] w-[90%] left-1/2 -translate-x-1/2 lg:translate-x-0 lg:left-[100px] h-[80dvh] top-30 fixed flex items-start justify-center z-20">
 			{proposalsController.include(id as string) && (
-				<div className="glass w-[70%] max-h-[90%] overflow-auto p-4 rounded-2xl flex gap-2 flex-col">
+				<div className="glass md:w-[70%] max-h-[90%] overflow-auto p-4 rounded-2xl flex gap-2 flex-col">
 					<div className="sticky top-0 flex w-full flex-col">
 						<div className="flex justify-between items-center">
 							<p className={`text-sm text-yellow-300`}>
@@ -71,8 +71,8 @@ export default function Proposal(): ReactNode {
 					</div>
 
 					<div className="flex flex-col gap-4 glass p-2 rounded-2xl overflow-hidden overflow-y-auto">
-						<div className="flex gap-4 items-center justify-between">
-							<div className="flex gap-4 items-center">
+						<div className="flex gap-4 items-start md:items-center justify-between flex-wrap flex-col md:flex-row">
+							<div className="flex gap-4 items-start md:items-center">
 								<div
 									className={`relative flex-none h-15 w-15  p-0.5 rounded-full ${
 										freelancersController.getFreelancer(
@@ -122,7 +122,7 @@ export default function Proposal(): ReactNode {
 											).role
 										}
 									</p>
-									<div className="flex gap-4 items-center text-sm">
+									<div className="flex md:gap-4 items-start md:items-center text-sm flex-wrap flex-col md:flex-wrap">
 										<div className="flex items-center gap-1">
 											<LuMapPin />
 											<p>
@@ -171,7 +171,7 @@ export default function Proposal(): ReactNode {
 									</div>
 								</div>
 							</div>
-							<div className="flex flex-col text-sm gap-2 mt-2">
+							<div className="flex flex-row text-sm gap-2 mt-2 self-end md:self-auto md:flex-col">
 								<Link
 									to={`/freelancers/${
 										proposalsController.getProposal(id as string).freelancer_id
@@ -197,13 +197,13 @@ export default function Proposal(): ReactNode {
 							</div>
 						</div>
 
-						<div className="border-t border-gray-600 ml-18 pt-4 flex flex-col gap-4">
+						<div className="border-t border-gray-600 sm:ml-18 pt-4 flex flex-col gap-4">
 							<p>
 								{proposalsController.getProposal(id as string).cover_letter}
 							</p>
 
-							<div className="flex gap-2">
-								<div className="flex flex-col gap-1 glass w-fit p-2 rounded-2xl overflow-hidden">
+							<div className="flex gap-2 flex-wrap w-full">
+								<div className="flex flex-col gap-1 glass w-fit p-2 rounded-2xl flex-1">
 									<p className="font-semibold">Bid details</p>
 
 									<div className="flex gap-4 glass-mod w-fit rounded-xl overflow-hidden px-2 py-0.5">
@@ -236,11 +236,11 @@ export default function Proposal(): ReactNode {
 										</div>
 									</div>
 								</div>
-								<div className="glass flex-1 rounded-2xl overflow-hidden p-2 flex flex-col gap-2">
+								<div className="glass rounded-2xl p-2 flex flex-col gap-2 flex-1 flex-wrap">
 									<p className="flex gap-2 items-center font-semibold">
 										<LuPaperclip /> <span>Attachments</span>
 									</p>
-									<div className="">
+									<div className="flex flex-wrap flex-col w-full">
 										{proposalsController.getProposal(id as string)
 											.attachments &&
 											proposalsController
@@ -248,7 +248,7 @@ export default function Proposal(): ReactNode {
 												.attachments?.map((attachment, i) => (
 													<div
 														key={i}
-														className="flex items-center gap-2 glass p-2 rounded-xl overflow-hidden group"
+														className="flex items-center gap-2 glass p-2 rounded-xl group w-full"
 													>
 														<FileIcon
 															fileName={attachment.file_name}

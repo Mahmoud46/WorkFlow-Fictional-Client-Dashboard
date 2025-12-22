@@ -31,7 +31,7 @@ export default function Profile(): ReactNode {
 
 	return (
 		<>
-			<div className="gap-4 glass rounded-2xl flex w-full p-4 min-h-[85dvh]">
+			<div className="gap-4 glass rounded-2xl flex w-full p-2 sm:p-4 min-h-[85dvh]">
 				<div className="flex flex-col gap-4">
 					<div className="flex gap-4">
 						<div className="w-22 h-22 flex-none">
@@ -55,7 +55,7 @@ export default function Profile(): ReactNode {
 							<p className="text-base max-w-[700px] mb-2">
 								{profileController.profileView.bio}
 							</p>
-							<div className="flex gap-4 items-center text-sm">
+							<div className="flex sm:gap-4 items-start sm:items-center text-sm flex-col sm:flex-row">
 								<p className="flex gap-2 items-center">
 									<LuBuilding className="flex-none text-base" />{" "}
 									<span>{profileController.profileView.company}</span>
@@ -92,7 +92,7 @@ export default function Profile(): ReactNode {
 								<span>My Posts</span>
 							</p>
 						</div>
-						<div className="flex gap-2">
+						<div className="flex gap-2 flex-wrap">
 							{postsController.posts.slice(0, 2).map((post, i) => (
 								<div
 									key={i}
@@ -193,7 +193,7 @@ export default function Profile(): ReactNode {
 						</div>
 					</div>
 				</div>
-				<div className="flex gap-2 flex-col p-2 flex-none max-w-[350px]">
+				<div className="gap-2 flex-col p-2 flex-none max-w-[350px] hidden xl:flex">
 					<div className="flex flex-col gap-4 glass p-4 rounded-2xl">
 						<div className="">
 							<div className="flex gap-2 font-semibold items-center mb-1">

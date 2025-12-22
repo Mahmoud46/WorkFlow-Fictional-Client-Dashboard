@@ -22,7 +22,7 @@ export default function App(): ReactNode {
 			<Header />
 			<Sidebar />
 			<Chat />
-			<section className={`flex pb-4 pr-8 pl-[100px] text-white`}>
+			<section className={`flex pb-4 px-2 sm:px-8 lg:pl-[100px] text-white`}>
 				<div className="flex w-full">
 					<Routes>
 						<Route index element={<Home />} />

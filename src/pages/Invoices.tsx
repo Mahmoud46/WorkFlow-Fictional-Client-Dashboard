@@ -14,9 +14,9 @@ export default function Invoices(): ReactNode {
 	const { invoicesController } = useContext(Context) as IContext;
 	return (
 		<>
-			<div className="gap-4 flex-col glass rounded-2xl flex w-full p-4">
+			<div className="gap-4 flex-col glass rounded-2xl flex w-full p-2 sm:p-4">
 				<div className="flex gap-2 items-center justify-between">
-					<h1 className="text-4xl">Payments and Invoices</h1>
+					<h1 className="text-3xl sm:text-4xl">Payments and Invoices</h1>
 					<div className="glass relative flex pr-2 rounded-full text-base cursor-pointer">
 						<LuFilter className="absolute top-[50%] translate-y-[-50%] left-2 opacity-70 text-base" />
 						<select

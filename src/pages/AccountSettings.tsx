@@ -35,7 +35,7 @@ export default function AccountSettings() {
 	}, [client]);
 
 	return (
-		<div className="min-w-[300px] w-[90%] left-[100px] h-[80dvh] top-30 fixed flex items-start justify-center z-20">
+		<div className="min-w-[300px] w-[90%] left-1/2 -translate-x-1/2 lg:translate-x-0 lg:left-[100px] h-[80dvh] top-30 fixed flex items-start justify-center z-20">
 			<div className="glass w-fit max-h-[90%] overflow-auto p-4 rounded-2xl flex gap-2 flex-col">
 				<div className="sticky top-0 flex w-full justify-between border-b border-gray-600 pb-2">
 					<div className="flex items-center gap-2 font-semibold">

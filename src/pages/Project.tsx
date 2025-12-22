@@ -46,7 +46,7 @@ export default function Project(): ReactNode {
 	return (
 		<>
 			{projectsController.include(id as string) && (
-				<div className="gap-4 glass rounded-2xl flex w-full p-4">
+				<div className="gap-4 glass rounded-2xl flex w-full p-2 sm:p-4 min-h-[90dvh]">
 					<div className="flex-1 flex flex-col">
 						<div className="">
 							<p
@@ -623,7 +623,7 @@ export default function Project(): ReactNode {
 							)}
 						</div>
 					</div>
-					<div className="flex gap-2 flex-col">
+					<div className="gap-2 flex-col hidden xl:flex">
 						<div className="p-4 gap-2 columns-2">
 							<div className="flex break-inside-avoid items-center gap-4 glass p-1 rounded-2xl min-w-[195px] max-w-[200px] mb-2">
 								<LuCreditCard className="ml-1 text-xl flex-none" />

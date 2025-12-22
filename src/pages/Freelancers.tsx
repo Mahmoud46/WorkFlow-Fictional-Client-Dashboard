@@ -22,15 +22,15 @@ export default function Freelancers(): ReactNode {
 		useState<string>("All");
 	return (
 		<>
-			<div className="flex gap-2 flex-col w-full glass rounded-2xl p-4">
-				<div className="flex justify-between">
+			<div className="flex gap-2 flex-col w-full glass rounded-2xl p-2 sm:p-4">
+				<div className="flex justify-between flex-wrap gap-2">
 					<h1 className="text-4xl">Fleelancers</h1>
 					<div className="glass relative flex pr-2 rounded-full text-base cursor-pointer">
 						<LuFolder className="absolute top-[50%] translate-y-[-50%] left-2 opacity-70 text-base" />
 						<select
 							name=""
 							id=""
-							className="outline-0 pl-7 cursor-pointer text-sm"
+							className="outline-0 p-2 pl-7 cursor-pointer text-sm"
 							onChange={(e) => setProjectsTitlesSelected(e.target.value)}
 						>
 							<option value="All" className="text-gray-950">

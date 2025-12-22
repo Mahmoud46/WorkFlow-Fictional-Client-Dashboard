@@ -9,7 +9,7 @@ export default function Proposals(): ReactNode {
 	const { proposalsController } = useContext(Context) as IContext;
 	return (
 		<>
-			<div className="flex gap-2 flex-col w-full glass rounded-2xl p-4">
+			<div className="flex gap-2 flex-col w-full glass rounded-2xl p-2 sm:p-4">
 				<div className="flex gap-2 items-center justify-between">
 					<h1 className="text-4xl">Pending Proposals</h1>
 				</div>

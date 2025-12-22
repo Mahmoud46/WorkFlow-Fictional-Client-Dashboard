@@ -54,7 +54,7 @@ export default function Sidebar(): ReactNode {
 
 	return (
 		<aside
-			className={`fixed left-0 h-[100dvh] flex flex-col p-4 pl-8 gap-4 z-50`}
+			className={`fixed left-0 h-[100dvh] flex-col p-2 pl-8 gap-2 z-50 hidden lg:flex`}
 		>
 			<ul className="rounded-full flex flex-col glass p-1">
 				{sideBarNavItems.map((item, i) => (

@@ -23,9 +23,9 @@ export default function Invoice(): ReactNode {
 	const [isCopied, setIsCopied] = useState<boolean>(false);
 	const { id } = useParams();
 	return (
-		<div className="min-w-[300px] w-[90%] left-[100px] h-[80dvh] top-30 fixed flex items-start justify-center z-10">
+		<div className="min-w-[300px] w-[90%] left-1/2 -translate-x-1/2 lg:translate-x-0 lg:left-[100px] h-[80dvh] top-30 fixed flex items-start justify-center z-10">
 			{invoicesController.include(id as string) && (
-				<div className="glass w-[70%] max-h-[90%] overflow-auto p-4 rounded-2xl flex gap-2 flex-col">
+				<div className="glass md:w-[70%] max-h-[90%] overflow-auto p-4 rounded-2xl flex gap-2 flex-col">
 					<div className="sticky top-0 flex flex-col w-full">
 						<div className="flex justify-between items-center w-full">
 							<p
@@ -45,7 +45,7 @@ export default function Invoice(): ReactNode {
 							</Link>
 						</div>
 						<div className="">
-							<h1 className="text-xl flex gap-2 items-center mb-2">
+							<h1 className="text-xl flex gap-2 items-center mb-2 flex-wrap">
 								<span>
 									{
 										projectsController.getProject(

@@ -16,8 +16,8 @@ export default function Stats(): ReactNode {
 		useContext(Context) as IContext;
 
 	return (
-		<div className="flex gap-2 flex-wrap">
-			<div className="flex items-center gap-4 glass p-1 rounded-2xl flex-1 min-w-[195px] max-w-[200px]">
+		<div className="flex gap-2 overflow-auto xl:flex-wrap">
+			<div className="flex flex-none items-center gap-4 glass p-1 rounded-2xl min-w-[195px] max-w-[200px]">
 				<LuFolderOpen className="ml-1 text-xl flex-none" />
 				<div className="flex-1">
 					<p className="text-xs opacity-70">Active Projects</p>
@@ -42,7 +42,7 @@ export default function Stats(): ReactNode {
 					<LuArrowDown />
 				</Link>
 			</div>
-			<div className="flex items-center gap-4 glass p-1 rounded-2xl flex-1 min-w-[195px] max-w-[200px]">
+			<div className="flex flex-none items-center gap-4 glass p-1 rounded-2xl min-w-[195px] max-w-[200px]">
 				<LuUsers className="ml-1 text-xl flex-none" />
 				<div className="flex-1">
 					<p className="text-xs opacity-70">Hired Freelancers</p>
@@ -63,7 +63,7 @@ export default function Stats(): ReactNode {
 					<LuArrowDown />
 				</Link>
 			</div>
-			<div className="flex items-center gap-4 glass p-1 rounded-2xl flex-1 min-w-[195px] max-w-[200px]">
+			<div className="flex  flex-none items-center gap-4 glass p-1 rounded-2xl min-w-[195px] max-w-[200px]">
 				<LuCreditCard className="ml-1 text-xl flex-none" />
 				<div className="flex-1">
 					<p className="text-xs opacity-70">Total Spent</p>
@@ -94,7 +94,7 @@ export default function Stats(): ReactNode {
 					<LuArrowDown />
 				</Link>
 			</div>
-			<div className="flex items-center gap-4 glass p-1 rounded-2xl flex-1 min-w-[195px] max-w-[200px]">
+			<div className="flex flex-none items-center gap-4 glass p-1 rounded-2xl min-w-[195px] max-w-[200px]">
 				<LuFileClock className="ml-1 text-xl flex-none" />
 				<div className="flex-1">
 					<p className="text-xs opacity-70">Pending Proposals</p>

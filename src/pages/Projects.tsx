@@ -27,7 +27,7 @@ export default function Projects(): ReactNode {
 	) as IContext;
 
 	return (
-		<div className="flex gap-2 flex-col w-full glass rounded-2xl p-4">
+		<div className="flex gap-2 flex-col w-full glass rounded-2xl p-2 sm:p-4">
 			<div className="flex flex-col gap-2">
 				<h1 className="text-4xl">Projects</h1>
 				<ProjectsStats />
