@@ -86,7 +86,7 @@
 			"project_id": "prj003",
 			"issue_date": "2025-11-10",
 			"due_date": "2025-11-25",
-			"status": "Pending",
+			"status": "Paid",
 			"amount": 10000,
 			"currency": "USD",
 			"transaction_ids": ["txn012"]
@@ -107,7 +107,7 @@
 			"project_id": "prj004",
 			"issue_date": "2025-10-15",
 			"due_date": "2025-10-30",
-			"status": "Pending",
+			"status": "Paid",
 			"amount": 20000,
 			"currency": "USD",
 			"transaction_ids": ["txn015"]
@@ -117,7 +117,7 @@
 			"project_id": "prj004",
 			"issue_date": "2025-11-15",
 			"due_date": "2025-11-30",
-			"status": "Pending",
+			"status": "Paid",
 			"amount": 20000,
 			"currency": "USD",
 			"transaction_ids": ["txn016", "txn017"]
@@ -138,7 +138,7 @@
 			"project_id": "prj005",
 			"issue_date": "2025-10-20",
 			"due_date": "2025-11-05",
-			"status": "Pending",
+			"status": "Paid",
 			"amount": 15000,
 			"currency": "USD",
 			"transaction_ids": ["txn019", "txn020"]
@@ -148,7 +148,7 @@
 			"project_id": "prj005",
 			"issue_date": "2025-11-20",
 			"due_date": "2025-12-05",
-			"status": "Pending",
+			"status": "Paid",
 			"amount": 10000,
 			"currency": "USD",
 			"transaction_ids": ["txn021"]
@@ -169,7 +169,7 @@
 			"project_id": "prj006",
 			"issue_date": "2025-10-25",
 			"due_date": "2025-11-10",
-			"status": "Pending",
+			"status": "Paid",
 			"amount": 20000,
 			"currency": "USD",
 			"transaction_ids": ["txn023", "txn024"]
@@ -179,7 +179,7 @@
 			"project_id": "prj006",
 			"issue_date": "2025-11-25",
 			"due_date": "2025-12-10",
-			"status": "Pending",
+			"status": "Paid",
 			"amount": 15000,
 			"currency": "USD",
 			"transaction_ids": ["txn025"]
@@ -190,7 +190,7 @@
 			"project_id": "prj007",
 			"issue_date": "2025-09-28",
 			"due_date": "2025-10-13",
-			"status": "Pending",
+			"status": "Paid",
 			"amount": 15000,
 			"currency": "USD",
 			"transaction_ids": ["txn026"]
@@ -200,7 +200,7 @@
 			"project_id": "prj007",
 			"issue_date": "2025-10-28",
 			"due_date": "2025-11-12",
-			"status": "Pending",
+			"status": "Paid",
 			"amount": 15000,
 			"currency": "USD",
 			"transaction_ids": ["txn027", "txn028"]
@@ -210,7 +210,7 @@
 			"project_id": "prj007",
 			"issue_date": "2025-11-28",
 			"due_date": "2025-12-13",
-			"status": "Pending",
+			"status": "Paid",
 			"amount": 15000,
 			"currency": "USD",
 			"transaction_ids": ["txn029"]
@@ -231,7 +231,7 @@
 			"project_id": "prj008",
 			"issue_date": "2025-11-01",
 			"due_date": "2025-11-16",
-			"status": "Pending",
+			"status": "Paid",
 			"amount": 15000,
 			"currency": "USD",
 			"transaction_ids": ["txn031", "txn032"]
@@ -241,7 +241,7 @@
 			"project_id": "prj008",
 			"issue_date": "2025-12-01",
 			"due_date": "2025-12-16",
-			"status": "Pending",
+			"status": "Paid",
 			"amount": 10000,
 			"currency": "USD",
 			"transaction_ids": ["txn033"]
@@ -262,7 +262,7 @@
 			"project_id": "prj009",
 			"issue_date": "2025-11-05",
 			"due_date": "2025-11-20",
-			"status": "Pending",
+			"status": "Paid",
 			"amount": 16000,
 			"currency": "USD",
 			"transaction_ids": ["txn036"]
@@ -272,7 +272,7 @@
 			"project_id": "prj009",
 			"issue_date": "2025-12-05",
 			"due_date": "2025-12-20",
-			"status": "Pending",
+			"status": "Paid",
 			"amount": 16000,
 			"currency": "USD",
 			"transaction_ids": ["txn037", "txn038"]
@@ -286,14 +286,14 @@
 			"status": "Paid",
 			"amount": 20000,
 			"currency": "USD",
-			"transaction_ids": ["txn039"]
+			"transaction_ids": ["txn039", "txn044"]
 		},
 		{
 			"invoice_id": "inv029",
 			"project_id": "prj010",
 			"issue_date": "2025-11-10",
 			"due_date": "2025-11-25",
-			"status": "Pending",
+			"status": "Paid",
 			"amount": 20000,
 			"currency": "USD",
 			"transaction_ids": ["txn040", "txn041"]
@@ -306,7 +306,7 @@
 			"status": "Pending",
 			"amount": 25000,
 			"currency": "USD",
-			"transaction_ids": ["txn042"]
+			"transaction_ids": ["txn042", "txn043"]
 		}
 	]
 }

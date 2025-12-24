@@ -101,12 +101,12 @@ export default function Profile(): ReactNode {
 									<div className="flex gap-2 items-center">
 										<div
 											className={`relative glass-head-btn p-3 rounded-full ${
-												post.status == "Open"
-													? "border border-green-400"
-													: "border border-red-400"
+												post.status == "Open" ? "border border-green-400" : ""
 											}`}
 										>
-											<span className="w-1.5 h-1.5 bg-green-400 absolute rounded-full top-[3.5px] right-[3.5px]"></span>
+											{post.status == "Open" && (
+												<span className="w-1.5 h-1.5 bg-green-400 absolute rounded-full top-[3.5px] right-[3.5px]"></span>
+											)}
 											<LuBriefcaseBusiness className="text-2xl" />
 										</div>
 										<div className="">

@@ -1,61 +1,6 @@
 {
 	"posts": [
 		{
-			"post_id": "post_ms068",
-			"client_id": "client123",
-			"title": "Healthcare Software Analyst",
-			"subtitle": "Requirements Gathering & Design",
-			"description": "We are seeking a Healthcare Software Analyst to lead the requirements gathering and design phase of an AI-powered healthcare chatbot. Responsibilities include defining chatbot objectives, collecting compliance requirements, designing conversation flows, and preparing UI/UX wireframes.",
-			"budget": {
-				"min": 4000,
-				"max": 6000,
-				"currency": "USD"
-			},
-			"skills": [
-				"Requirements Analysis",
-				"Healthcare Compliance",
-				"Conversation Design",
-				"UI/UX Wireframing"
-			],
-			"requirements": [
-				"Experience in healthcare or medical software projects",
-				"Familiarity with compliance standards (HIPAA, GDPR)",
-				"Strong communication and documentation skills"
-			],
-			"status": "Open",
-			"created_at": "2025-09-26T20:25:00Z",
-			"deadline": "2025-10-15T00:00:00Z",
-			"location_type": "Remote"
-		},
-		{
-			"post_id": "post_ms069",
-			"client_id": "client123",
-			"title": "AI Chatbot Developer",
-			"subtitle": "Prototype Development",
-			"description": "We are hiring an AI Chatbot Developer to build the prototype for a healthcare-focused chatbot. The role involves setting up the development environment, integrating NLP for symptom checking, developing backend APIs, and creating the frontend chatbot interface.",
-			"budget": {
-				"min": 8000,
-				"max": 12000,
-				"currency": "USD"
-			},
-			"skills": [
-				"NLP (Natural Language Processing)",
-				"Machine Learning",
-				"Backend API Development",
-				"Frontend Chatbot Development"
-			],
-			"requirements": [
-				"Proven experience in chatbot or AI system development",
-				"Strong backend and frontend development skills",
-				"Ability to integrate NLP models into real applications"
-			],
-			"status": "Open",
-			"created_at": "2025-09-25T20:25:00Z",
-			"deadline": "2025-11-30T00:00:00Z",
-			"location_type": "Remote"
-		},
-
-		{
 			"post_id": "post_m12-1",
 			"client_id": "client123",
 			"title": "3D Environment Designer",
@@ -109,6 +54,60 @@
 			"status": "Open",
 			"created_at": "2025-09-27T20:40:00Z",
 			"deadline": "2026-02-10T00:00:00Z",
+			"location_type": "Remote"
+		},
+		{
+			"post_id": "post_ms068",
+			"client_id": "client123",
+			"title": "Healthcare Software Analyst",
+			"subtitle": "Requirements Gathering & Design",
+			"description": "We are seeking a Healthcare Software Analyst to lead the requirements gathering and design phase of an AI-powered healthcare chatbot. Responsibilities include defining chatbot objectives, collecting compliance requirements, designing conversation flows, and preparing UI/UX wireframes.",
+			"budget": {
+				"min": 4000,
+				"max": 6000,
+				"currency": "USD"
+			},
+			"skills": [
+				"Requirements Analysis",
+				"Healthcare Compliance",
+				"Conversation Design",
+				"UI/UX Wireframing"
+			],
+			"requirements": [
+				"Experience in healthcare or medical software projects",
+				"Familiarity with compliance standards (HIPAA, GDPR)",
+				"Strong communication and documentation skills"
+			],
+			"status": "Closed",
+			"created_at": "2025-09-26T20:25:00Z",
+			"deadline": "2025-10-15T00:00:00Z",
+			"location_type": "Remote"
+		},
+		{
+			"post_id": "post_ms069",
+			"client_id": "client123",
+			"title": "AI Chatbot Developer",
+			"subtitle": "Prototype Development",
+			"description": "We are hiring an AI Chatbot Developer to build the prototype for a healthcare-focused chatbot. The role involves setting up the development environment, integrating NLP for symptom checking, developing backend APIs, and creating the frontend chatbot interface.",
+			"budget": {
+				"min": 8000,
+				"max": 12000,
+				"currency": "USD"
+			},
+			"skills": [
+				"NLP (Natural Language Processing)",
+				"Machine Learning",
+				"Backend API Development",
+				"Frontend Chatbot Development"
+			],
+			"requirements": [
+				"Proven experience in chatbot or AI system development",
+				"Strong backend and frontend development skills",
+				"Ability to integrate NLP models into real applications"
+			],
+			"status": "Closed",
+			"created_at": "2025-09-25T20:25:00Z",
+			"deadline": "2025-11-30T00:00:00Z",
 			"location_type": "Remote"
 		}
 	]

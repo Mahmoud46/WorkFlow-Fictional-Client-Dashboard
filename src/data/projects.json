@@ -421,13 +421,12 @@
 			"invoices": ["inv004", "inv005", "inv006"],
 			"cover_image": "https://example.com/images/health-fitness-app.jpg"
 		},
-
 		{
 			"project_id": "prj003",
 			"client_id": "client123",
 			"title": "AI-Powered Chatbot",
 			"description": "A chatbot integrated into web and mobile platforms using NLP and AI to assist customer support.",
-			"status": "In Progress",
+			"status": "Completed",
 			"start_date": "2025-09-10",
 			"due_date": "2025-11-30",
 			"budget": 30000,
@@ -445,7 +444,7 @@
 				{
 					"milestone_id": "ms014",
 					"title": "AI Model Development",
-					"status": "In Progress",
+					"status": "Completed",
 					"due_date": "2025-10-15",
 					"freelancer_id": "frlX4mJp6",
 					"tasks": [
@@ -455,17 +454,17 @@
 							"due_date": "2025-09-20"
 						},
 						{
-							"status": "In Progress",
+							"status": "Completed",
 							"description": "Train NLP model for intent recognition",
 							"due_date": "2025-09-30"
 						},
 						{
-							"status": "Pending",
+							"status": "Completed",
 							"description": "Develop dialogue management system",
 							"due_date": "2025-10-08"
 						},
 						{
-							"status": "Pending",
+							"status": "Completed",
 							"description": "Test and fine-tune chatbot responses",
 							"due_date": "2025-10-15"
 						}
@@ -474,17 +473,17 @@
 				{
 					"milestone_id": "ms015",
 					"title": "Backend Integration",
-					"status": "Pending",
+					"status": "Completed",
 					"due_date": "2025-10-20",
 					"freelancer_id": "frlQ7nDs6",
 					"tasks": [
 						{
-							"status": "Pending",
+							"status": "Completed",
 							"description": "Set up REST APIs for chatbot communication",
 							"due_date": "2025-10-12"
 						},
 						{
-							"status": "Pending",
+							"status": "Completed",
 							"description": "Integrate AI model with backend services",
 							"due_date": "2025-10-18"
 						}
@@ -493,17 +492,17 @@
 				{
 					"milestone_id": "ms016",
 					"title": "Frontend Implementation",
-					"status": "Pending",
+					"status": "Completed",
 					"due_date": "2025-10-25",
 					"freelancer_id": "frlZ8pQk1",
 					"tasks": [
 						{
-							"status": "Pending",
+							"status": "Completed",
 							"description": "Build chatbot UI component for web app",
 							"due_date": "2025-10-18"
 						},
 						{
-							"status": "Pending",
+							"status": "Completed",
 							"description": "Integrate chatbot with mobile interface",
 							"due_date": "2025-10-23"
 						}
@@ -512,17 +511,17 @@
 				{
 					"milestone_id": "ms017",
 					"title": "UI/UX Design",
-					"status": "Pending",
+					"status": "Completed",
 					"due_date": "2025-10-30",
 					"freelancer_id": "frlH9cLq4",
 					"tasks": [
 						{
-							"status": "Pending",
+							"status": "Completed",
 							"description": "Design chatbot conversation flow mockups",
 							"due_date": "2025-10-20"
 						},
 						{
-							"status": "Pending",
+							"status": "Completed",
 							"description": "Create mobile-friendly chatbot widget design",
 							"due_date": "2025-10-28"
 						}
@@ -531,17 +530,17 @@
 				{
 					"milestone_id": "ms018",
 					"title": "QA Testing",
-					"status": "Pending",
+					"status": "Completed",
 					"due_date": "2025-11-05",
 					"freelancer_id": "frlJ6vHq2",
 					"tasks": [
 						{
-							"status": "Pending",
+							"status": "Completed",
 							"description": "Perform end-to-end testing of chatbot conversations",
 							"due_date": "2025-11-02"
 						},
 						{
-							"status": "Pending",
+							"status": "Completed",
 							"description": "Conduct performance and stress testing",
 							"due_date": "2025-11-05"
 						}
@@ -550,17 +549,17 @@
 				{
 					"milestone_id": "ms019",
 					"title": "Deployment Setup",
-					"status": "Pending",
+					"status": "Completed",
 					"due_date": "2025-11-10",
 					"freelancer_id": "frlK6rTy3",
 					"tasks": [
 						{
-							"status": "Pending",
+							"status": "Completed",
 							"description": "Configure cloud environment for deployment",
 							"due_date": "2025-11-07"
 						},
 						{
-							"status": "Pending",
+							"status": "Completed",
 							"description": "Deploy chatbot to production servers",
 							"due_date": "2025-11-10"
 						}
@@ -593,22 +592,22 @@
 				{
 					"milestone_id": "ms020",
 					"title": "Game Mechanics Development",
-					"status": "In Progress",
+					"status": "Completed",
 					"due_date": "2025-10-20",
 					"freelancer_id": "frlR5eBn1",
 					"tasks": [
 						{
-							"status": "In Progress",
+							"status": "Completed",
 							"description": "Develop core movement and combat system",
 							"due_date": "2025-09-30"
 						},
 						{
-							"status": "In Progress",
+							"status": "Completed",
 							"description": "Implement multiplayer synchronization logic",
 							"due_date": "2025-10-10"
 						},
 						{
-							"status": "Pending",
+							"status": "Completed",
 							"description": "Add scoring and leaderboard mechanics",
 							"due_date": "2025-10-18"
 						}
@@ -617,17 +616,17 @@
 				{
 					"milestone_id": "ms021",
 					"title": "Backend Integration",
-					"status": "Pending",
+					"status": "Completed",
 					"due_date": "2025-10-25",
 					"freelancer_id": "frlM5xTn7",
 					"tasks": [
 						{
-							"status": "Pending",
+							"status": "Completed",
 							"description": "Develop player authentication service",
 							"due_date": "2025-10-15"
 						},
 						{
-							"status": "Pending",
+							"status": "Completed",
 							"description": "Implement game session management APIs",
 							"due_date": "2025-10-22"
 						}
@@ -636,17 +635,17 @@
 				{
 					"milestone_id": "ms022",
 					"title": "Frontend Game UI",
-					"status": "Pending",
+					"status": "Completed",
 					"due_date": "2025-11-01",
 					"freelancer_id": "frlQ7nDs6",
 					"tasks": [
 						{
-							"status": "Pending",
+							"status": "Completed",
 							"description": "Create in-game HUD and menus",
 							"due_date": "2025-10-25"
 						},
 						{
-							"status": "Pending",
+							"status": "Completed",
 							"description": "Integrate UI with gameplay mechanics",
 							"due_date": "2025-10-30"
 						}
@@ -655,17 +654,17 @@
 				{
 					"milestone_id": "ms023",
 					"title": "UI/UX Design",
-					"status": "Pending",
+					"status": "Completed",
 					"due_date": "2025-11-05",
 					"freelancer_id": "frlY9bTw3",
 					"tasks": [
 						{
-							"status": "Pending",
+							"status": "Completed",
 							"description": "Design character selection and lobby screens",
 							"due_date": "2025-10-28"
 						},
 						{
-							"status": "Pending",
+							"status": "Completed",
 							"description": "Create visual assets for game menus",
 							"due_date": "2025-11-03"
 						}
@@ -674,17 +673,17 @@
 				{
 					"milestone_id": "ms024",
 					"title": "QA Testing",
-					"status": "Pending",
+					"status": "Completed",
 					"due_date": "2025-11-15",
 					"freelancer_id": "frlJ6vHq2",
 					"tasks": [
 						{
-							"status": "Pending",
+							"status": "Completed",
 							"description": "Conduct multiplayer stress testing",
 							"due_date": "2025-11-10"
 						},
 						{
-							"status": "Pending",
+							"status": "Completed",
 							"description": "Test cross-platform gameplay",
 							"due_date": "2025-11-14"
 						}
@@ -693,17 +692,17 @@
 				{
 					"milestone_id": "ms025",
 					"title": "Cloud Deployment",
-					"status": "Pending",
+					"status": "Completed",
 					"due_date": "2025-11-20",
 					"freelancer_id": "frlL7hQm8",
 					"tasks": [
 						{
-							"status": "Pending",
+							"status": "Completed",
 							"description": "Set up cloud infrastructure for game servers",
 							"due_date": "2025-11-15"
 						},
 						{
-							"status": "Pending",
+							"status": "Completed",
 							"description": "Deploy and monitor multiplayer game on cloud",
 							"due_date": "2025-11-20"
 						}
@@ -719,7 +718,7 @@
 			"client_id": "client123",
 			"title": "Digital Marketing Platform",
 			"description": "Platform for SEO, social media campaigns, and content marketing management.",
-			"status": "In Progress",
+			"status": "Completed",
 			"start_date": "2025-09-20",
 			"due_date": "2025-12-10",
 			"budget": 35000,
@@ -739,22 +738,22 @@
 				{
 					"milestone_id": "ms026",
 					"title": "Frontend Module",
-					"status": "In Progress",
+					"status": "Completed",
 					"due_date": "2025-10-05",
 					"freelancer_id": "frlZ8pQk1",
 					"tasks": [
 						{
-							"status": "In Progress",
+							"status": "Completed",
 							"description": "Develop dashboard UI components",
 							"due_date": "2025-09-27"
 						},
 						{
-							"status": "Pending",
+							"status": "Completed",
 							"description": "Integrate charting library for analytics",
 							"due_date": "2025-10-01"
 						},
 						{
-							"status": "Pending",
+							"status": "Completed",
 							"description": "Implement responsive design",
 							"due_date": "2025-10-04"
 						}
@@ -763,27 +762,27 @@
 				{
 					"milestone_id": "ms027",
 					"title": "Backend Module",
-					"status": "In Progress",
+					"status": "Completed",
 					"due_date": "2025-10-15",
 					"freelancer_id": "frlM5xTn7",
 					"tasks": [
 						{
-							"status": "In Progress",
+							"status": "Completed",
 							"description": "Setup user authentication service",
 							"due_date": "2025-09-29"
 						},
 						{
-							"status": "Pending",
+							"status": "Completed",
 							"description": "Develop content scheduling APIs",
 							"due_date": "2025-10-05"
 						},
 						{
-							"status": "Pending",
+							"status": "Completed",
 							"description": "Integrate database for SEO reports",
 							"due_date": "2025-10-10"
 						},
 						{
-							"status": "Pending",
+							"status": "Completed",
 							"description": "Add API rate limiting & caching",
 							"due_date": "2025-10-14"
 						}
@@ -792,17 +791,17 @@
 				{
 					"milestone_id": "ms028",
 					"title": "UI/UX Design",
-					"status": "Pending",
+					"status": "Completed",
 					"due_date": "2025-10-20",
 					"freelancer_id": "frlH9cLq4",
 					"tasks": [
 						{
-							"status": "Pending",
+							"status": "Completed",
 							"description": "Design wireframes for campaign creation",
 							"due_date": "2025-10-12"
 						},
 						{
-							"status": "Pending",
+							"status": "Completed",
 							"description": "Deliver Figma prototype",
 							"due_date": "2025-10-18"
 						}
@@ -811,22 +810,22 @@
 				{
 					"milestone_id": "ms029",
 					"title": "Content Creation",
-					"status": "Pending",
+					"status": "Completed",
 					"due_date": "2025-10-25",
 					"freelancer_id": "frlC1pKs2",
 					"tasks": [
 						{
-							"status": "Pending",
+							"status": "Completed",
 							"description": "Prepare blog content for launch",
 							"due_date": "2025-10-18"
 						},
 						{
-							"status": "Pending",
+							"status": "Completed",
 							"description": "Create social media assets",
 							"due_date": "2025-10-22"
 						},
 						{
-							"status": "Pending",
+							"status": "Completed",
 							"description": "Develop ad copy for campaigns",
 							"due_date": "2025-10-24"
 						}
@@ -835,22 +834,22 @@
 				{
 					"milestone_id": "ms030",
 					"title": "Marketing Strategy",
-					"status": "Pending",
+					"status": "Completed",
 					"due_date": "2025-11-05",
 					"freelancer_id": "frlF5kNr1",
 					"tasks": [
 						{
-							"status": "Pending",
+							"status": "Completed",
 							"description": "Perform competitor analysis",
 							"due_date": "2025-10-28"
 						},
 						{
-							"status": "Pending",
+							"status": "Completed",
 							"description": "Define SEO and SEM strategies",
 							"due_date": "2025-11-02"
 						},
 						{
-							"status": "Pending",
+							"status": "Completed",
 							"description": "Outline social media campaign plan",
 							"due_date": "2025-11-04"
 						}
@@ -859,17 +858,17 @@
 				{
 					"milestone_id": "ms031",
 					"title": "QA Testing",
-					"status": "Pending",
+					"status": "Completed",
 					"due_date": "2025-11-10",
 					"freelancer_id": "frlJ6vHq2",
 					"tasks": [
 						{
-							"status": "Pending",
+							"status": "Completed",
 							"description": "Conduct cross-browser testing",
 							"due_date": "2025-11-07"
 						},
 						{
-							"status": "Pending",
+							"status": "Completed",
 							"description": "Validate content scheduling flow",
 							"due_date": "2025-11-09"
 						}
@@ -878,22 +877,22 @@
 				{
 					"milestone_id": "ms032",
 					"title": "Mobile Integration",
-					"status": "Pending",
+					"status": "Completed",
 					"due_date": "2025-11-15",
 					"freelancer_id": "frlU2zJt4",
 					"tasks": [
 						{
-							"status": "Pending",
+							"status": "Completed",
 							"description": "Implement mobile-optimized campaign creation",
 							"due_date": "2025-11-10"
 						},
 						{
-							"status": "Pending",
+							"status": "Completed",
 							"description": "Test mobile push notifications",
 							"due_date": "2025-11-13"
 						},
 						{
-							"status": "Pending",
+							"status": "Completed",
 							"description": "Sync analytics dashboard with mobile",
 							"due_date": "2025-11-14"
 						}
@@ -908,7 +907,7 @@
 			"client_id": "client123",
 			"title": "Blockchain Voting System",
 			"description": "A secure, blockchain-based voting platform with smart contract integration and tamper-proof voting records.",
-			"status": "In Progress",
+			"status": "Completed",
 			"start_date": "2025-09-25",
 			"due_date": "2025-12-20",
 			"budget": 55000,
@@ -926,27 +925,27 @@
 				{
 					"milestone_id": "ms033",
 					"title": "Smart Contract Development",
-					"status": "In Progress",
+					"status": "Completed",
 					"due_date": "2025-10-10",
 					"freelancer_id": "frlS8nWp5",
 					"tasks": [
 						{
-							"status": "In Progress",
+							"status": "Completed",
 							"description": "Define voting rules in Solidity",
 							"due_date": "2025-09-30"
 						},
 						{
-							"status": "Pending",
+							"status": "Completed",
 							"description": "Implement ballot creation contract",
 							"due_date": "2025-10-05"
 						},
 						{
-							"status": "Pending",
+							"status": "Completed",
 							"description": "Add contract-based vote validation",
 							"due_date": "2025-10-08"
 						},
 						{
-							"status": "Pending",
+							"status": "Completed",
 							"description": "Write smart contract unit tests",
 							"due_date": "2025-10-09"
 						}
@@ -955,22 +954,22 @@
 				{
 					"milestone_id": "ms034",
 					"title": "Backend API Setup",
-					"status": "In Progress",
+					"status": "Completed",
 					"due_date": "2025-10-20",
 					"freelancer_id": "frlM5xTn7",
 					"tasks": [
 						{
-							"status": "Pending",
+							"status": "Completed",
 							"description": "Develop user registration & login API",
 							"due_date": "2025-10-12"
 						},
 						{
-							"status": "Pending",
+							"status": "Completed",
 							"description": "Connect blockchain node with backend",
 							"due_date": "2025-10-15"
 						},
 						{
-							"status": "Pending",
+							"status": "Completed",
 							"description": "Implement audit logging service",
 							"due_date": "2025-10-18"
 						}
@@ -979,22 +978,22 @@
 				{
 					"milestone_id": "ms035",
 					"title": "Frontend Implementation",
-					"status": "Pending",
+					"status": "Completed",
 					"due_date": "2025-10-30",
 					"freelancer_id": "frlZ8pQk1",
 					"tasks": [
 						{
-							"status": "Pending",
+							"status": "Completed",
 							"description": "Develop voting UI screens",
 							"due_date": "2025-10-22"
 						},
 						{
-							"status": "Pending",
+							"status": "Completed",
 							"description": "Integrate wallet connection",
 							"due_date": "2025-10-26"
 						},
 						{
-							"status": "Pending",
+							"status": "Completed",
 							"description": "Validate on-chain vote submissions",
 							"due_date": "2025-10-29"
 						}
@@ -1003,17 +1002,17 @@
 				{
 					"milestone_id": "ms036",
 					"title": "UI/UX Design",
-					"status": "Pending",
+					"status": "Completed",
 					"due_date": "2025-11-05",
 					"freelancer_id": "frlY9bTw3",
 					"tasks": [
 						{
-							"status": "Pending",
+							"status": "Completed",
 							"description": "Design accessible ballot flows",
 							"due_date": "2025-10-28"
 						},
 						{
-							"status": "Pending",
+							"status": "Completed",
 							"description": "Deliver Figma designs",
 							"due_date": "2025-11-02"
 						}
@@ -1022,22 +1021,22 @@
 				{
 					"milestone_id": "ms037",
 					"title": "Cybersecurity Review",
-					"status": "Pending",
+					"status": "Completed",
 					"due_date": "2025-11-15",
 					"freelancer_id": "frlB3cGm7",
 					"tasks": [
 						{
-							"status": "Pending",
+							"status": "Completed",
 							"description": "Perform penetration testing",
 							"due_date": "2025-11-08"
 						},
 						{
-							"status": "Pending",
+							"status": "Completed",
 							"description": "Conduct smart contract audit",
 							"due_date": "2025-11-12"
 						},
 						{
-							"status": "Pending",
+							"status": "Completed",
 							"description": "Validate backend encryption compliance",
 							"due_date": "2025-11-14"
 						}
@@ -1046,22 +1045,22 @@
 				{
 					"milestone_id": "ms038",
 					"title": "DevOps Deployment",
-					"status": "Pending",
+					"status": "Completed",
 					"due_date": "2025-11-25",
 					"freelancer_id": "frlK6rTy3",
 					"tasks": [
 						{
-							"status": "Pending",
+							"status": "Completed",
 							"description": "Setup CI/CD pipeline",
 							"due_date": "2025-11-18"
 						},
 						{
-							"status": "Pending",
+							"status": "Completed",
 							"description": "Deploy to Kubernetes cluster",
 							"due_date": "2025-11-22"
 						},
 						{
-							"status": "Pending",
+							"status": "Completed",
 							"description": "Monitor system with logging tools",
 							"due_date": "2025-11-24"
 						}
@@ -1077,7 +1076,7 @@
 			"client_id": "client123",
 			"title": "AI Content Recommendation System",
 			"description": "AI-driven content recommendation engine for personalized user experiences across web and mobile platforms.",
-			"status": "In Progress",
+			"status": "Completed",
 			"start_date": "2025-09-28",
 			"due_date": "2025-12-15",
 			"budget": 45000,
@@ -1095,27 +1094,27 @@
 				{
 					"milestone_id": "ms039",
 					"title": "AI Model Training",
-					"status": "Pending",
+					"status": "Completed",
 					"due_date": "2025-10-15",
 					"freelancer_id": "frlX4mJp6",
 					"tasks": [
 						{
-							"status": "Pending",
+							"status": "Completed",
 							"description": "Collect and preprocess training dataset",
 							"due_date": "2025-10-05"
 						},
 						{
-							"status": "Pending",
+							"status": "Completed",
 							"description": "Select and fine-tune recommendation algorithms",
 							"due_date": "2025-10-10"
 						},
 						{
-							"status": "Pending",
+							"status": "Completed",
 							"description": "Train initial AI model and evaluate accuracy",
 							"due_date": "2025-10-12"
 						},
 						{
-							"status": "Pending",
+							"status": "Completed",
 							"description": "Optimize model performance for scalability",
 							"due_date": "2025-10-14"
 						}
@@ -1124,27 +1123,27 @@
 				{
 					"milestone_id": "ms040",
 					"title": "Data Pipeline Setup",
-					"status": "Pending",
+					"status": "Completed",
 					"due_date": "2025-10-20",
 					"freelancer_id": "frlN3yGq8",
 					"tasks": [
 						{
-							"status": "Pending",
+							"status": "Completed",
 							"description": "Set up data ingestion pipeline from multiple sources",
 							"due_date": "2025-10-12"
 						},
 						{
-							"status": "Pending",
+							"status": "Completed",
 							"description": "Implement real-time data streaming service",
 							"due_date": "2025-10-15"
 						},
 						{
-							"status": "Pending",
+							"status": "Completed",
 							"description": "Configure storage and caching system",
 							"due_date": "2025-10-17"
 						},
 						{
-							"status": "Pending",
+							"status": "Completed",
 							"description": "Integrate pipeline monitoring & logging tools",
 							"due_date": "2025-10-19"
 						}
@@ -1153,27 +1152,27 @@
 				{
 					"milestone_id": "ms041",
 					"title": "Backend API Development",
-					"status": "Pending",
+					"status": "Completed",
 					"due_date": "2025-10-25",
 					"freelancer_id": "frlM5xTn7",
 					"tasks": [
 						{
-							"status": "Pending",
+							"status": "Completed",
 							"description": "Design API endpoints for recommendation requests",
 							"due_date": "2025-10-18"
 						},
 						{
-							"status": "Pending",
+							"status": "Completed",
 							"description": "Develop authentication & authorization layer",
 							"due_date": "2025-10-20"
 						},
 						{
-							"status": "Pending",
+							"status": "Completed",
 							"description": "Implement caching & response optimization",
 							"due_date": "2025-10-22"
 						},
 						{
-							"status": "Pending",
+							"status": "Completed",
 							"description": "Write unit and integration tests",
 							"due_date": "2025-10-24"
 						}
@@ -1182,22 +1181,22 @@
 				{
 					"milestone_id": "ms042",
 					"title": "Frontend Integration",
-					"status": "Pending",
+					"status": "Completed",
 					"due_date": "2025-11-05",
 					"freelancer_id": "frlU2zJt4",
 					"tasks": [
 						{
-							"status": "Pending",
+							"status": "Completed",
 							"description": "Integrate recommendation widgets into homepage",
 							"due_date": "2025-10-28"
 						},
 						{
-							"status": "Pending",
+							"status": "Completed",
 							"description": "Add personalization controls for users",
 							"due_date": "2025-11-01"
 						},
 						{
-							"status": "Pending",
+							"status": "Completed",
 							"description": "Test responsiveness across web & mobile",
 							"due_date": "2025-11-03"
 						}
@@ -1206,17 +1205,17 @@
 				{
 					"milestone_id": "ms043",
 					"title": "UI/UX Design",
-					"status": "Pending",
+					"status": "Completed",
 					"due_date": "2025-11-10",
 					"freelancer_id": "frlH9cLq4",
 					"tasks": [
 						{
-							"status": "Pending",
+							"status": "Completed",
 							"description": "Create wireframes for recommendation components",
 							"due_date": "2025-11-02"
 						},
 						{
-							"status": "Pending",
+							"status": "Completed",
 							"description": "Deliver interactive Figma prototype",
 							"due_date": "2025-11-08"
 						}
@@ -1225,22 +1224,22 @@
 				{
 					"milestone_id": "ms044",
 					"title": "QA & Testing",
-					"status": "Pending",
+					"status": "Completed",
 					"due_date": "2025-11-20",
 					"freelancer_id": "frlJ6vHq2",
 					"tasks": [
 						{
-							"status": "Pending",
+							"status": "Completed",
 							"description": "Conduct functional testing for recommendation API",
 							"due_date": "2025-11-12"
 						},
 						{
-							"status": "Pending",
+							"status": "Completed",
 							"description": "Perform UI/UX usability testing",
 							"due_date": "2025-11-16"
 						},
 						{
-							"status": "Pending",
+							"status": "Completed",
 							"description": "Run load & performance tests",
 							"due_date": "2025-11-18"
 						}
@@ -1255,7 +1254,7 @@
 			"client_id": "client123",
 			"title": "Corporate Branding & Web Presence",
 			"description": "Brand identity development including website, visual assets, marketing content, and online presence strategy.",
-			"status": "Pending",
+			"status": "Completed",
 			"start_date": "2025-10-01",
 			"due_date": "2025-12-05",
 			"budget": 40000,
@@ -1273,22 +1272,22 @@
 				{
 					"milestone_id": "ms045",
 					"title": "Graphic Design Assets",
-					"status": "In Progress",
+					"status": "Completed",
 					"due_date": "2025-10-10",
 					"freelancer_id": "frlW7fLz9",
 					"tasks": [
 						{
-							"status": "In Progress",
+							"status": "Completed",
 							"description": "Design company logo variations",
 							"due_date": "2025-10-05"
 						},
 						{
-							"status": "Pending",
+							"status": "Completed",
 							"description": "Create brand color palette & typography guide",
 							"due_date": "2025-10-08"
 						},
 						{
-							"status": "Pending",
+							"status": "Completed",
 							"description": "Prepare social media asset templates",
 							"due_date": "2025-10-09"
 						}
@@ -1297,22 +1296,22 @@
 				{
 					"milestone_id": "ms046",
 					"title": "UI/UX Website Design",
-					"status": "Pending",
+					"status": "Completed",
 					"due_date": "2025-10-20",
 					"freelancer_id": "frlH9cLq4",
 					"tasks": [
 						{
-							"status": "Pending",
+							"status": "Completed",
 							"description": "Wireframe website homepage & key pages",
 							"due_date": "2025-10-12"
 						},
 						{
-							"status": "Pending",
+							"status": "Completed",
 							"description": "Create interactive website prototype",
 							"due_date": "2025-10-16"
 						},
 						{
-							"status": "Pending",
+							"status": "Completed",
 							"description": "Finalize responsive design system",
 							"due_date": "2025-10-18"
 						}
@@ -1321,27 +1320,27 @@
 				{
 					"milestone_id": "ms047",
 					"title": "Frontend Development",
-					"status": "Pending",
+					"status": "Completed",
 					"due_date": "2025-10-25",
 					"freelancer_id": "frlZ8pQk1",
 					"tasks": [
 						{
-							"status": "Pending",
+							"status": "Completed",
 							"description": "Set up project architecture with React",
 							"due_date": "2025-10-18"
 						},
 						{
-							"status": "Pending",
+							"status": "Completed",
 							"description": "Implement homepage components",
 							"due_date": "2025-10-21"
 						},
 						{
-							"status": "Pending",
+							"status": "Completed",
 							"description": "Integrate API with frontend",
 							"due_date": "2025-10-23"
 						},
 						{
-							"status": "Pending",
+							"status": "Completed",
 							"description": "Cross-browser compatibility testing",
 							"due_date": "2025-10-24"
 						}
@@ -1350,22 +1349,22 @@
 				{
 					"milestone_id": "ms048",
 					"title": "Content & SEO",
-					"status": "Pending",
+					"status": "Completed",
 					"due_date": "2025-11-05",
 					"freelancer_id": "frlC1pKs2",
 					"tasks": [
 						{
-							"status": "Pending",
+							"status": "Completed",
 							"description": "Write website copy aligned with brand voice",
 							"due_date": "2025-10-28"
 						},
 						{
-							"status": "Pending",
+							"status": "Completed",
 							"description": "Optimize on-page SEO for all pages",
 							"due_date": "2025-11-01"
 						},
 						{
-							"status": "Pending",
+							"status": "Completed",
 							"description": "Set up Google Analytics & SEO tracking",
 							"due_date": "2025-11-03"
 						}
@@ -1374,27 +1373,27 @@
 				{
 					"milestone_id": "ms049",
 					"title": "Marketing Strategy",
-					"status": "Pending",
+					"status": "Completed",
 					"due_date": "2025-11-15",
 					"freelancer_id": "frlF5kNr1",
 					"tasks": [
 						{
-							"status": "Pending",
+							"status": "Completed",
 							"description": "Develop digital marketing roadmap",
 							"due_date": "2025-11-07"
 						},
 						{
-							"status": "Pending",
+							"status": "Completed",
 							"description": "Plan social media campaign strategy",
 							"due_date": "2025-11-10"
 						},
 						{
-							"status": "Pending",
+							"status": "Completed",
 							"description": "Create content calendar",
 							"due_date": "2025-11-12"
 						},
 						{
-							"status": "Pending",
+							"status": "Completed",
 							"description": "Define KPIs & success metrics",
 							"due_date": "2025-11-14"
 						}
@@ -1403,22 +1402,22 @@
 				{
 					"milestone_id": "ms050",
 					"title": "QA Testing",
-					"status": "Pending",
+					"status": "Completed",
 					"due_date": "2025-11-20",
 					"freelancer_id": "frlJ6vHq2",
 					"tasks": [
 						{
-							"status": "Pending",
+							"status": "Completed",
 							"description": "Perform functional testing of website",
 							"due_date": "2025-11-16"
 						},
 						{
-							"status": "Pending",
+							"status": "Completed",
 							"description": "Conduct cross-device usability testing",
 							"due_date": "2025-11-18"
 						},
 						{
-							"status": "Pending",
+							"status": "Completed",
 							"description": "Fix bugs & finalize deployment checklist",
 							"due_date": "2025-11-19"
 						}
@@ -1434,9 +1433,9 @@
 			"client_id": "client123",
 			"title": "Cloud-Based Analytics Dashboard",
 			"description": "Interactive web dashboard displaying analytics, KPIs, and real-time data for enterprise clients with cloud integration.",
-			"status": "Pending",
+			"status": "Completed",
 			"start_date": "2025-10-05",
-			"due_date": "2025-12-25",
+			"due_date": "2025-12-24",
 			"budget": 48000,
 			"currency": "USD",
 			"categories": ["Analytics", "Cloud", "Web"],
@@ -1453,27 +1452,27 @@
 				{
 					"milestone_id": "ms051",
 					"title": "Frontend Development",
-					"status": "In Progress",
+					"status": "Completed",
 					"due_date": "2025-10-15",
 					"freelancer_id": "frlU2zJt4",
 					"tasks": [
 						{
-							"status": "In Progress",
+							"status": "Completed",
 							"description": "Build dashboard layout and navigation",
 							"due_date": "2025-10-08"
 						},
 						{
-							"status": "Pending",
+							"status": "Completed",
 							"description": "Implement chart components using Recharts/D3",
 							"due_date": "2025-10-12"
 						},
 						{
-							"status": "Pending",
+							"status": "Completed",
 							"description": "Integrate frontend with API endpoints",
 							"due_date": "2025-10-14"
 						},
 						{
-							"status": "Pending",
+							"status": "Completed",
 							"description": "Ensure responsive design across devices",
 							"due_date": "2025-10-15"
 						}
@@ -1482,27 +1481,27 @@
 				{
 					"milestone_id": "ms052",
 					"title": "Backend API Setup",
-					"status": "Pending",
+					"status": "Completed",
 					"due_date": "2025-10-25",
 					"freelancer_id": "frlM5xTn7",
 					"tasks": [
 						{
-							"status": "Pending",
+							"status": "Completed",
 							"description": "Design RESTful API for analytics data",
 							"due_date": "2025-10-18"
 						},
 						{
-							"status": "Pending",
+							"status": "Completed",
 							"description": "Implement authentication & authorization",
 							"due_date": "2025-10-20"
 						},
 						{
-							"status": "Pending",
+							"status": "Completed",
 							"description": "Set up API caching and rate-limiting",
 							"due_date": "2025-10-23"
 						},
 						{
-							"status": "Pending",
+							"status": "Completed",
 							"description": "Write backend integration tests",
 							"due_date": "2025-10-24"
 						}
@@ -1511,32 +1510,32 @@
 				{
 					"milestone_id": "ms053",
 					"title": "Data Integration & Analytics",
-					"status": "Pending",
+					"status": "Completed",
 					"due_date": "2025-11-05",
 					"freelancer_id": "frlN3yGq8",
 					"tasks": [
 						{
-							"status": "Pending",
+							"status": "Completed",
 							"description": "Connect to cloud-based data sources",
 							"due_date": "2025-10-28"
 						},
 						{
-							"status": "Pending",
+							"status": "Completed",
 							"description": "Develop ETL processes for analytics pipeline",
 							"due_date": "2025-10-31"
 						},
 						{
-							"status": "Pending",
+							"status": "Completed",
 							"description": "Implement real-time KPI calculations",
 							"due_date": "2025-11-02"
 						},
 						{
-							"status": "Pending",
+							"status": "Completed",
 							"description": "Test and validate data accuracy",
 							"due_date": "2025-11-04"
 						},
 						{
-							"status": "Pending",
+							"status": "Completed",
 							"description": "Document data flow and integration",
 							"due_date": "2025-11-05"
 						}
@@ -1545,22 +1544,22 @@
 				{
 					"milestone_id": "ms054",
 					"title": "Cloud Deployment",
-					"status": "Pending",
+					"status": "Completed",
 					"due_date": "2025-11-10",
 					"freelancer_id": "frlK6rTy3",
 					"tasks": [
 						{
-							"status": "Pending",
+							"status": "Completed",
 							"description": "Set up cloud infrastructure (AWS/Azure/GCP)",
 							"due_date": "2025-11-05"
 						},
 						{
-							"status": "Pending",
+							"status": "Completed",
 							"description": "Deploy backend & frontend services",
 							"due_date": "2025-11-08"
 						},
 						{
-							"status": "Pending",
+							"status": "Completed",
 							"description": "Configure CI/CD pipeline",
 							"due_date": "2025-11-09"
 						}
@@ -1569,17 +1568,17 @@
 				{
 					"milestone_id": "ms055",
 					"title": "UI/UX Design",
-					"status": "Pending",
+					"status": "Completed",
 					"due_date": "2025-11-15",
 					"freelancer_id": "frlY9bTw3",
 					"tasks": [
 						{
-							"status": "Pending",
+							"status": "Completed",
 							"description": "Design wireframes for dashboard pages",
 							"due_date": "2025-11-08"
 						},
 						{
-							"status": "Pending",
+							"status": "Completed",
 							"description": "Deliver interactive design prototype",
 							"due_date": "2025-11-12"
 						}
@@ -1588,22 +1587,22 @@
 				{
 					"milestone_id": "ms056",
 					"title": "QA Testing",
-					"status": "Pending",
+					"status": "Completed",
 					"due_date": "2025-11-20",
 					"freelancer_id": "frlJ6vHq2",
 					"tasks": [
 						{
-							"status": "Pending",
+							"status": "Completed",
 							"description": "Perform functional testing",
 							"due_date": "2025-11-16"
 						},
 						{
-							"status": "Pending",
+							"status": "Completed",
 							"description": "Conduct performance/load testing",
 							"due_date": "2025-11-18"
 						},
 						{
-							"status": "Pending",
+							"status": "Completed",
 							"description": "Fix bugs and retest",
 							"due_date": "2025-11-19"
 						}
@@ -1612,22 +1611,22 @@
 				{
 					"milestone_id": "ms057",
 					"title": "Cloud Architecture Review",
-					"status": "Pending",
+					"status": "Completed",
 					"due_date": "2025-11-30",
 					"freelancer_id": "frlL7hQm8",
 					"tasks": [
 						{
-							"status": "Pending",
+							"status": "Completed",
 							"description": "Review cloud infrastructure design",
 							"due_date": "2025-11-25"
 						},
 						{
-							"status": "Pending",
+							"status": "Completed",
 							"description": "Audit system security & compliance",
 							"due_date": "2025-11-27"
 						},
 						{
-							"status": "Pending",
+							"status": "Completed",
 							"description": "Provide optimization recommendations",
 							"due_date": "2025-11-29"
 						}
@@ -1642,7 +1641,7 @@
 			"client_id": "client123",
 			"title": "Cross-Platform Social Media App",
 			"description": "A social media platform for web and mobile with messaging, content sharing, notifications, and analytics integration.",
-			"status": "Pending",
+			"status": "In Progress",
 			"start_date": "2025-10-10",
 			"due_date": "2026-01-10",
 			"budget": 65000,
@@ -1664,27 +1663,27 @@
 				{
 					"milestone_id": "ms058",
 					"title": "Frontend Web Development",
-					"status": "In Progress",
+					"status": "Completed",
 					"due_date": "2025-10-20",
 					"freelancer_id": "frlZ8pQk1",
 					"tasks": [
 						{
-							"status": "In Progress",
+							"status": "Completed",
 							"description": "Set up React frontend architecture",
 							"due_date": "2025-10-12"
 						},
 						{
-							"status": "Pending",
+							"status": "Completed",
 							"description": "Develop feed & timeline components",
 							"due_date": "2025-10-15"
 						},
 						{
-							"status": "Pending",
+							"status": "Completed",
 							"description": "Integrate API with web frontend",
 							"due_date": "2025-10-18"
 						},
 						{
-							"status": "Pending",
+							"status": "Completed",
 							"description": "Cross-browser testing & bug fixes",
 							"due_date": "2025-10-19"
 						}
@@ -1693,32 +1692,32 @@
 				{
 					"milestone_id": "ms059",
 					"title": "Mobile App Development",
-					"status": "In Progress",
+					"status": "Completed",
 					"due_date": "2025-10-25",
 					"freelancer_id": "frlT2jVp9",
 					"tasks": [
 						{
-							"status": "In Progress",
+							"status": "Completed",
 							"description": "Build cross-platform app structure (React Native/Flutter)",
 							"due_date": "2025-10-15"
 						},
 						{
-							"status": "Pending",
+							"status": "Completed",
 							"description": "Implement messaging module",
 							"due_date": "2025-10-18"
 						},
 						{
-							"status": "Pending",
+							"status": "Completed",
 							"description": "Integrate push notifications",
 							"due_date": "2025-10-20"
 						},
 						{
-							"status": "Pending",
+							"status": "Completed",
 							"description": "Test on iOS & Android devices",
 							"due_date": "2025-10-23"
 						},
 						{
-							"status": "Pending",
+							"status": "Completed",
 							"description": "Optimize performance & fix issues",
 							"due_date": "2025-10-24"
 						}
@@ -1727,27 +1726,27 @@
 				{
 					"milestone_id": "ms060",
 					"title": "Backend API",
-					"status": "Pending",
+					"status": "Completed",
 					"due_date": "2025-11-05",
 					"freelancer_id": "frlM5xTn7",
 					"tasks": [
 						{
-							"status": "Pending",
+							"status": "Completed",
 							"description": "Design database schema for social app",
 							"due_date": "2025-10-28"
 						},
 						{
-							"status": "Pending",
+							"status": "Completed",
 							"description": "Develop user management & authentication",
 							"due_date": "2025-11-01"
 						},
 						{
-							"status": "Pending",
+							"status": "Completed",
 							"description": "Implement content & post APIs",
 							"due_date": "2025-11-03"
 						},
 						{
-							"status": "Pending",
+							"status": "Completed",
 							"description": "Write automated API tests",
 							"due_date": "2025-11-04"
 						}
@@ -1756,17 +1755,17 @@
 				{
 					"milestone_id": "ms061",
 					"title": "UI/UX Design",
-					"status": "Pending",
+					"status": "Completed",
 					"due_date": "2025-11-10",
 					"freelancer_id": "frlH9cLq4",
 					"tasks": [
 						{
-							"status": "Pending",
+							"status": "Completed",
 							"description": "Design wireframes for core app features",
 							"due_date": "2025-11-02"
 						},
 						{
-							"status": "Pending",
+							"status": "Completed",
 							"description": "Create interactive app prototype",
 							"due_date": "2025-11-06"
 						}
@@ -1775,22 +1774,22 @@
 				{
 					"milestone_id": "ms062",
 					"title": "QA Testing",
-					"status": "Pending",
+					"status": "Completed",
 					"due_date": "2025-11-20",
 					"freelancer_id": "frlJ6vHq2",
 					"tasks": [
 						{
-							"status": "Pending",
+							"status": "Completed",
 							"description": "Run end-to-end testing on all platforms",
 							"due_date": "2025-11-15"
 						},
 						{
-							"status": "Pending",
+							"status": "Completed",
 							"description": "Conduct usability testing with users",
 							"due_date": "2025-11-17"
 						},
 						{
-							"status": "Pending",
+							"status": "Completed",
 							"description": "Fix reported bugs & retest",
 							"due_date": "2025-11-19"
 						}
@@ -1799,27 +1798,27 @@
 				{
 					"milestone_id": "ms063",
 					"title": "Marketing Campaign",
-					"status": "Pending",
+					"status": "Completed",
 					"due_date": "2025-11-30",
 					"freelancer_id": "frlF5kNr1",
 					"tasks": [
 						{
-							"status": "Pending",
+							"status": "Completed",
 							"description": "Plan pre-launch marketing strategy",
 							"due_date": "2025-11-20"
 						},
 						{
-							"status": "Pending",
+							"status": "Completed",
 							"description": "Create social media content",
 							"due_date": "2025-11-25"
 						},
 						{
-							"status": "Pending",
+							"status": "Completed",
 							"description": "Set up paid ad campaigns",
 							"due_date": "2025-11-27"
 						},
 						{
-							"status": "Pending",
+							"status": "Completed",
 							"description": "Launch beta tester referral program",
 							"due_date": "2025-11-29"
 						}
@@ -1828,22 +1827,22 @@
 				{
 					"milestone_id": "ms064",
 					"title": "Cloud Deployment",
-					"status": "Pending",
+					"status": "Completed",
 					"due_date": "2025-12-10",
 					"freelancer_id": "frlK6rTy3",
 					"tasks": [
 						{
-							"status": "Pending",
+							"status": "Completed",
 							"description": "Deploy backend & frontend to cloud provider",
 							"due_date": "2025-12-05"
 						},
 						{
-							"status": "Pending",
+							"status": "Completed",
 							"description": "Configure CI/CD pipeline for app",
 							"due_date": "2025-12-07"
 						},
 						{
-							"status": "Pending",
+							"status": "Completed",
 							"description": "Run deployment testing & monitoring setup",
 							"due_date": "2025-12-09"
 						}
@@ -1852,22 +1851,22 @@
 				{
 					"milestone_id": "ms065",
 					"title": "Analytics & Reporting",
-					"status": "Pending",
+					"status": "Completed",
 					"due_date": "2025-12-15",
 					"freelancer_id": "frlL7hQm8",
 					"tasks": [
 						{
-							"status": "Pending",
+							"status": "Completed",
 							"description": "Integrate Google Analytics & Firebase",
 							"due_date": "2025-12-10"
 						},
 						{
-							"status": "Pending",
+							"status": "Completed",
 							"description": "Develop custom user engagement reports",
 							"due_date": "2025-12-12"
 						},
 						{
-							"status": "Pending",
+							"status": "Completed",
 							"description": "Test accuracy of analytics data",
 							"due_date": "2025-12-14"
 						}
@@ -1876,22 +1875,22 @@
 				{
 					"milestone_id": "ms066",
 					"title": "Social Media Integration",
-					"status": "Pending",
+					"status": "Completed",
 					"due_date": "2025-12-20",
 					"freelancer_id": "frlP9wDv5",
 					"tasks": [
 						{
-							"status": "Pending",
+							"status": "Completed",
 							"description": "Integrate OAuth login with major platforms",
 							"due_date": "2025-12-15"
 						},
 						{
-							"status": "Pending",
+							"status": "Completed",
 							"description": "Enable post sharing to external platforms",
 							"due_date": "2025-12-17"
 						},
 						{
-							"status": "Pending",
+							"status": "Completed",
 							"description": "Test API rate limits & permissions",
 							"due_date": "2025-12-19"
 						}
@@ -1900,24 +1899,24 @@
 				{
 					"milestone_id": "ms067",
 					"title": "Frontend Enhancements",
-					"status": "Pending",
+					"status": "In Progress",
 					"due_date": "2025-12-25",
 					"freelancer_id": "frlQ7nDs6",
 					"tasks": [
 						{
-							"status": "Pending",
+							"status": "Completed",
 							"description": "Improve performance with lazy loading",
 							"due_date": "2025-12-22"
 						},
 						{
-							"status": "Pending",
+							"status": "Completed",
 							"description": "Add accessibility improvements (WCAG)",
 							"due_date": "2025-12-23"
 						},
 						{
-							"status": "Pending",
+							"status": "In Progress",
 							"description": "Polish UI with animations & micro-interactions",
-							"due_date": "2025-12-24"
+							"due_date": "2025-12-25"
 						}
 					]
 				}
@@ -1931,39 +1930,43 @@
 			"client_id": "client123",
 			"title": "AI-Powered Healthcare Chatbot",
 			"description": "A project to build an intelligent healthcare chatbot for patient symptom checking, triage, and consultation support.",
-			"status": "Pending",
+			"status": "In Progress",
 			"start_date": "2025-09-30",
 			"due_date": "2026-01-15",
 			"budget": 25000,
 			"currency": "USD",
 			"categories": ["AI", "Healthcare", "Chatbot"],
-			"freelancer_ids": [],
+			"freelancer_ids": [
+				"n9X4LdAqK7T2hYfRp0z1j",
+				"a7FkDqWlM5rZ0p2YbXsT9",
+				"ZpL8dV2wXj3kTrMnQ5yUo"
+			],
 			"milestones": [
 				{
 					"milestone_id": "ms068",
 					"title": "Requirements Gathering & Design",
-					"status": "Pending",
+					"status": "Completed",
 					"due_date": "2025-10-15",
-					"freelancer_id": "",
+					"freelancer_id": "n9X4LdAqK7T2hYfRp0z1j",
 					"tasks": [
 						{
 							"description": "Define chatbot objectives and scope",
-							"status": "Pending",
+							"status": "Completed",
 							"due_date": "2025-10-02"
 						},
 						{
 							"description": "Gather healthcare compliance requirements",
-							"status": "Pending",
+							"status": "Completed",
 							"due_date": "2025-10-06"
 						},
 						{
 							"description": "Design conversation flow and intents",
-							"status": "Pending",
+							"status": "Completed",
 							"due_date": "2025-10-10"
 						},
 						{
 							"description": "Prepare UI/UX wireframes for chatbot interface",
-							"status": "Pending",
+							"status": "Completed",
 							"due_date": "2025-10-13"
 						}
 					]
@@ -1971,28 +1974,28 @@
 				{
 					"milestone_id": "ms069",
 					"title": "Prototype Development",
-					"status": "Pending",
+					"status": "Completed",
 					"due_date": "2025-11-30",
-					"freelancer_id": "",
+					"freelancer_id": "a7FkDqWlM5rZ0p2YbXsT9",
 					"tasks": [
 						{
 							"description": "Set up development environment",
-							"status": "Pending",
+							"status": "Completed",
 							"due_date": "2025-10-20"
 						},
 						{
 							"description": "Integrate NLP model for symptom checking",
-							"status": "Pending",
+							"status": "Completed",
 							"due_date": "2025-11-05"
 						},
 						{
 							"description": "Develop backend API for chatbot",
-							"status": "Pending",
+							"status": "Completed",
 							"due_date": "2025-11-15"
 						},
 						{
 							"description": "Build frontend chatbot interface",
-							"status": "Pending",
+							"status": "Completed",
 							"due_date": "2025-11-25"
 						}
 					]
@@ -2006,34 +2009,34 @@
 			"client_id": "client123",
 			"title": "Virtual Reality Training Platform",
 			"description": "Development of an immersive VR training platform for corporate and industrial workforce training.",
-			"status": "Pending",
+			"status": "In Progress",
 			"start_date": "2025-11-30",
 			"due_date": "2026-03-20",
 			"budget": 40000,
 			"currency": "EUR",
 			"categories": ["VR", "Training", "Education"],
-			"freelancer_ids": [],
+			"freelancer_ids": ["sT9zLp2vQmX7aJ5nRb0Yf", "pN7yWt4rXkJ0qB2mVs6Zf"],
 			"milestones": [
 				{
 					"milestone_id": "m12-1",
 					"title": "VR Environment Design",
-					"status": "Pending",
+					"status": "Completed",
 					"due_date": "2025-12-20",
-					"freelancer_id": "",
+					"freelancer_id": "sT9zLp2vQmX7aJ5nRb0Yf",
 					"tasks": [
 						{
 							"description": "Gather 3D environment requirements",
-							"status": "Pending",
+							"status": "Completed",
 							"due_date": "2025-12-05"
 						},
 						{
 							"description": "Create 3D models and textures",
-							"status": "Pending",
+							"status": "Completed",
 							"due_date": "2025-12-12"
 						},
 						{
 							"description": "Design VR environment interactions",
-							"status": "Pending",
+							"status": "Completed",
 							"due_date": "2025-12-18"
 						}
 					]
@@ -2041,13 +2044,13 @@
 				{
 					"milestone_id": "m12-2",
 					"title": "Interactive Module Development",
-					"status": "Pending",
+					"status": "In Progress",
 					"due_date": "2026-02-10",
-					"freelancer_id": "",
+					"freelancer_id": "pN7yWt4rXkJ0qB2mVs6Zf",
 					"tasks": [
 						{
 							"description": "Develop training scenarios",
-							"status": "Pending",
+							"status": "In Progress",
 							"due_date": "2026-01-05"
 						},
 						{

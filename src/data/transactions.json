@@ -97,7 +97,7 @@
 			"method": "Cash",
 			"amount": 5000,
 			"currency": "USD",
-			"status": "Pending"
+			"status": "Completed"
 		},
 		{
 			"transaction_id": "txn012",
@@ -106,7 +106,7 @@
 			"method": "Bank Transfer",
 			"amount": 10000,
 			"currency": "USD",
-			"status": "Pending"
+			"status": "Completed"
 		},
 		{
 			"transaction_id": "txn013",
@@ -133,7 +133,7 @@
 			"method": "Credit Card",
 			"amount": 20000,
 			"currency": "USD",
-			"status": "Pending"
+			"status": "Completed"
 		},
 		{
 			"transaction_id": "txn016",
@@ -142,7 +142,7 @@
 			"method": "Bank Transfer",
 			"amount": 10000,
 			"currency": "USD",
-			"status": "Pending"
+			"status": "Completed"
 		},
 		{
 			"transaction_id": "txn017",
@@ -151,7 +151,7 @@
 			"method": "PayPal",
 			"amount": 10000,
 			"currency": "USD",
-			"status": "Pending"
+			"status": "Completed"
 		},
 		{
 			"transaction_id": "txn018",
@@ -169,7 +169,7 @@
 			"method": "Bank Transfer",
 			"amount": 7500,
 			"currency": "USD",
-			"status": "Pending"
+			"status": "Completed"
 		},
 		{
 			"transaction_id": "txn020",
@@ -178,7 +178,7 @@
 			"method": "PayPal",
 			"amount": 7500,
 			"currency": "USD",
-			"status": "Pending"
+			"status": "Completed"
 		},
 		{
 			"transaction_id": "txn021",
@@ -187,7 +187,7 @@
 			"method": "Credit Card",
 			"amount": 10000,
 			"currency": "USD",
-			"status": "Pending"
+			"status": "Completed"
 		},
 		{
 			"transaction_id": "txn022",
@@ -205,7 +205,7 @@
 			"method": "PayPal",
 			"amount": 10000,
 			"currency": "USD",
-			"status": "Pending"
+			"status": "Completed"
 		},
 		{
 			"transaction_id": "txn024",
@@ -214,7 +214,7 @@
 			"method": "Cash",
 			"amount": 10000,
 			"currency": "USD",
-			"status": "Pending"
+			"status": "Completed"
 		},
 		{
 			"transaction_id": "txn025",
@@ -223,7 +223,7 @@
 			"method": "Bank Transfer",
 			"amount": 15000,
 			"currency": "USD",
-			"status": "Pending"
+			"status": "Completed"
 		},
 		{
 			"transaction_id": "txn026",
@@ -241,7 +241,7 @@
 			"method": "Bank Transfer",
 			"amount": 7500,
 			"currency": "USD",
-			"status": "Pending"
+			"status": "Completed"
 		},
 		{
 			"transaction_id": "txn028",
@@ -250,7 +250,7 @@
 			"method": "PayPal",
 			"amount": 7500,
 			"currency": "USD",
-			"status": "Pending"
+			"status": "Completed"
 		},
 		{
 			"transaction_id": "txn029",
@@ -259,7 +259,7 @@
 			"method": "Cash",
 			"amount": 15000,
 			"currency": "USD",
-			"status": "Pending"
+			"status": "Completed"
 		},
 		{
 			"transaction_id": "txn030",
@@ -277,7 +277,7 @@
 			"method": "PayPal",
 			"amount": 7500,
 			"currency": "USD",
-			"status": "Pending"
+			"status": "Completed"
 		},
 		{
 			"transaction_id": "txn032",
@@ -286,7 +286,7 @@
 			"method": "Credit Card",
 			"amount": 7500,
 			"currency": "USD",
-			"status": "Pending"
+			"status": "Completed"
 		},
 		{
 			"transaction_id": "txn033",
@@ -295,7 +295,7 @@
 			"method": "Bank Transfer",
 			"amount": 10000,
 			"currency": "USD",
-			"status": "Pending"
+			"status": "Completed"
 		},
 		{
 			"transaction_id": "txn034",
@@ -322,7 +322,7 @@
 			"method": "Credit Card",
 			"amount": 16000,
 			"currency": "USD",
-			"status": "Pending"
+			"status": "Completed"
 		},
 		{
 			"transaction_id": "txn037",
@@ -331,7 +331,7 @@
 			"method": "Bank Transfer",
 			"amount": 8000,
 			"currency": "USD",
-			"status": "Pending"
+			"status": "Completed"
 		},
 		{
 			"transaction_id": "txn038",
@@ -340,7 +340,7 @@
 			"method": "PayPal",
 			"amount": 8000,
 			"currency": "USD",
-			"status": "Pending"
+			"status": "Completed"
 		},
 		{
 			"transaction_id": "txn039",
@@ -352,13 +352,22 @@
 			"status": "Completed"
 		},
 		{
+			"transaction_id": "txn044",
+			"invoice_id": "inv028",
+			"date": "2025-12-02",
+			"method": "PayPal",
+			"amount": 10000,
+			"currency": "USD",
+			"status": "Completed"
+		},
+		{
 			"transaction_id": "txn040",
 			"invoice_id": "inv029",
 			"date": "2025-11-11",
 			"method": "Bank Transfer",
 			"amount": 10000,
 			"currency": "USD",
-			"status": "Pending"
+			"status": "Completed"
 		},
 		{
 			"transaction_id": "txn041",
@@ -367,7 +376,7 @@
 			"method": "PayPal",
 			"amount": 10000,
 			"currency": "USD",
-			"status": "Pending"
+			"status": "Completed"
 		},
 		{
 			"transaction_id": "txn042",
@@ -376,7 +385,7 @@
 			"method": "Bank Transfer",
 			"amount": 12500,
 			"currency": "USD",
-			"status": "Pending"
+			"status": "Completed"
 		},
 		{
 			"transaction_id": "txn043",
@@ -385,7 +394,7 @@
 			"method": "Credit Card",
 			"amount": 12500,
 			"currency": "USD",
-			"status": "Pending"
+			"status": "Completed"
 		}
 	]
 }
