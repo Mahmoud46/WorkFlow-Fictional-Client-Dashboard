@@ -22,7 +22,7 @@ export default function Freelancers(): ReactNode {
 		useState<string>("All");
 	return (
 		<>
-			<div className="flex gap-2 flex-col w-full glass rounded-2xl p-2 sm:p-4">
+			<div className="flex gap-2 flex-col w-full glass rounded-2xl p-2 sm:p-4 min-h-[90dvh]">
 				<div className="flex justify-between flex-wrap gap-2">
 					<h1 className="text-4xl">Fleelancers</h1>
 					<div className="glass relative flex pr-2 rounded-full text-base cursor-pointer">

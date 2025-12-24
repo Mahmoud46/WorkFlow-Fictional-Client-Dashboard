@@ -33,8 +33,8 @@ export default function Header(): ReactNode {
 				<Link to={"/"} className="flex gap-2 items-center cursor-pointer">
 					<img src={logo} alt="workflow" className="h-6" />
 					<p className="text-xl font-semibold">
-						<span>Work</span>
-						<span className="italic">Flow</span>
+						<span className="font-light">Work</span>
+						<span className="">Flow</span>
 					</p>
 				</Link>
 				<div className="relative hidden md:flex ">

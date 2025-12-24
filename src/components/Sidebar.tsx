@@ -1,28 +1,11 @@
 import { useContext, useEffect, useRef, useState, type ReactNode } from "react";
-import type { IconType } from "react-icons";
-import {
-	LuHouse,
-	LuCreditCard,
-	LuFileText,
-	LuFolder,
-	LuUsers,
-	LuSettings,
-	LuLogOut,
-	LuArrowDown,
-	LuSparkles,
-} from "react-icons/lu";
+import { LuSettings, LuLogOut, LuArrowDown, LuSparkles } from "react-icons/lu";
 import { Link, useLocation } from "react-router-dom";
 import { Context } from "../context/Context";
 import type { IContext } from "../interface/Context.interface";
 import { toggleTheme } from "../utils/toggleTheme";
+import { NAV_ITEMS } from "../constants/constants";
 
-const sideBarNavItems: { title: string; icon: IconType; path: string }[] = [
-	{ title: "Home", icon: LuHouse, path: "/" },
-	{ title: "Projects", icon: LuFolder, path: "/projects" },
-	{ title: "Freelancers", icon: LuUsers, path: "/freelancers" },
-	{ title: "Payments & Invoices", icon: LuCreditCard, path: "/invoices" },
-	{ title: "Proposals", icon: LuFileText, path: "/pending-proposals" },
-];
 export default function Sidebar(): ReactNode {
 	const [isDarkTheme, setIsDarkTheme] = useState<boolean>(
 		JSON.parse(localStorage.getItem("is_dark") as string) ?? true
@@ -57,7 +40,7 @@ export default function Sidebar(): ReactNode {
 			className={`fixed left-0 h-[100dvh] flex-col p-2 pl-8 gap-2 z-50 hidden lg:flex`}
 		>
 			<ul className="rounded-full flex flex-col glass p-1">
-				{sideBarNavItems.map((item, i) => (
+				{NAV_ITEMS.map((item, i) => (
 					<li className="" key={i}>
 						<Link
 							to={item.path}

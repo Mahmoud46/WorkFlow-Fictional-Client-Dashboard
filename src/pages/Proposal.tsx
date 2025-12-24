@@ -203,7 +203,7 @@ export default function Proposal(): ReactNode {
 							</p>
 
 							<div className="flex gap-2 flex-wrap w-full">
-								<div className="flex flex-col gap-1 glass w-fit p-2 rounded-2xl flex-1">
+								<div className="flex flex-col gap-1 glass w-fit p-2 rounded-2xl">
 									<p className="font-semibold">Bid details</p>
 
 									<div className="flex gap-4 glass-mod w-fit rounded-xl overflow-hidden px-2 py-0.5">
@@ -248,7 +248,7 @@ export default function Proposal(): ReactNode {
 												.attachments?.map((attachment, i) => (
 													<div
 														key={i}
-														className="flex items-center gap-2 glass p-2 rounded-xl group w-full"
+														className="flex items-center gap-2 glass p-2 rounded-xl group w-full flex-wrap"
 													>
 														<FileIcon
 															fileName={attachment.file_name}
@@ -258,7 +258,7 @@ export default function Proposal(): ReactNode {
 															<p>{attachment.file_name}</p>
 															<p className="opacity-70 text-xs">365 KB</p>
 														</div>
-														<div className="p-1 cursor-pointer rounded-full overflow-hidden text-sm flex items-center gap-1 opacity-0 transition duration-300 hover:bg-white hover:text-gray-900 px-2 group-hover:opacity-100">
+														<div className="p-1 cursor-pointer rounded-full overflow-hidden text-sm flex items-center gap-1 lg:opacity-0 transition duration-300 hover:bg-white hover:text-gray-900 px-2 group-hover:opacity-100">
 															<LuDownload />
 															<span>Download</span>
 														</div>

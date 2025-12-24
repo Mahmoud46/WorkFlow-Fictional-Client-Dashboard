@@ -22,7 +22,7 @@ export default function Home(): ReactNode {
 		<>
 			{projectsController.projects && (
 				<div className="gap-2 glass rounded-2xl flex w-full p-2 sm:p-4">
-					<div className="flex flex-1 max-w-full w-fit flex-col gap-2">
+					<div className="flex flex-1 max-w-full w-fit flex-col gap-2 h-fit">
 						<h1 className="text-2xl">
 							Welcome back
 							<br />

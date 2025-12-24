@@ -1,8 +1,24 @@
+import type { IconType } from "react-icons";
 import type {
 	TInvoiceStatus,
 	TProjectStatus,
 	TTransactionStatus,
 } from "../interface/Data.interface";
+import {
+	LuHouse,
+	LuFolder,
+	LuUsers,
+	LuCreditCard,
+	LuFileText,
+} from "react-icons/lu";
+
+export const NAV_ITEMS: { title: string; icon: IconType; path: string }[] = [
+	{ title: "Home", icon: LuHouse, path: "/" },
+	{ title: "Projects", icon: LuFolder, path: "/projects" },
+	{ title: "Freelancers", icon: LuUsers, path: "/freelancers" },
+	{ title: "Payments & Invoices", icon: LuCreditCard, path: "/invoices" },
+	{ title: "Proposals", icon: LuFileText, path: "/pending-proposals" },
+];
 
 export const monthsAbbName: string[] = [
 	"Jan",

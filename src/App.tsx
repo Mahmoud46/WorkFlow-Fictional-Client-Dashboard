@@ -15,6 +15,7 @@ import Header from "./components/Header";
 import Sidebar from "./components/Sidebar";
 import AccountSettings from "./pages/AccountSettings";
 import Chat from "./components/Chat";
+import BottomNavbar from "./components/BottomNavbar";
 
 export default function App(): ReactNode {
 	return (
@@ -22,7 +23,9 @@ export default function App(): ReactNode {
 			<Header />
 			<Sidebar />
 			<Chat />
-			<section className={`flex pb-4 px-2 sm:px-8 lg:pl-[100px] text-white`}>
+			<section
+				className={`flex flex-col pb-0 lg:pb-4 px-2 sm:px-8 lg:pl-[100px] text-white`}
+			>
 				<div className="flex w-full">
 					<Routes>
 						<Route index element={<Home />} />
@@ -48,6 +51,7 @@ export default function App(): ReactNode {
 						</Route>
 					</Routes>
 				</div>
+				<BottomNavbar />
 			</section>
 		</>
 	);

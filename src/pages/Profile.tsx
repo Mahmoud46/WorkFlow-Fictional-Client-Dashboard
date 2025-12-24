@@ -31,7 +31,7 @@ export default function Profile(): ReactNode {
 
 	return (
 		<>
-			<div className="gap-4 glass rounded-2xl flex w-full p-2 sm:p-4 min-h-[85dvh]">
+			<div className="gap-4 glass rounded-2xl flex w-full p-2 sm:p-4 min-h-[90dvh]">
 				<div className="flex flex-col gap-4">
 					<div className="flex gap-4">
 						<div className="w-22 h-22 flex-none">

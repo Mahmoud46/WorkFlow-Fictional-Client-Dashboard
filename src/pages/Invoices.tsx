@@ -14,7 +14,7 @@ export default function Invoices(): ReactNode {
 	const { invoicesController } = useContext(Context) as IContext;
 	return (
 		<>
-			<div className="gap-4 flex-col glass rounded-2xl flex w-full p-2 sm:p-4">
+			<div className="gap-4 flex-col glass rounded-2xl flex w-full p-2 sm:p-4 min-h-[90dvh]">
 				<div className="flex gap-2 items-center justify-between">
 					<h1 className="text-3xl sm:text-4xl">Payments and Invoices</h1>
 					<div className="glass relative flex pr-2 rounded-full text-base cursor-pointer">
