@@ -63,7 +63,7 @@ export default function Home(): ReactNode {
 											Pending Proposals
 										</p>
 										<Link
-											to={"/pending-proposals"}
+											to={"/proposals"}
 											className="self-start rotate-225 text-base glass rounded-full cursor-pointer p-1"
 										>
 											<LuArrowDown />

@@ -32,6 +32,7 @@ export default function Freelancers(): ReactNode {
 							id=""
 							className="outline-0 p-2 pl-7 cursor-pointer text-sm"
 							onChange={(e) => setProjectsTitlesSelected(e.target.value)}
+							value={projectsTitlesSelectd}
 						>
 							<option value="All" className="text-gray-950">
 								All Projects

@@ -395,6 +395,52 @@
 			"amount": 12500,
 			"currency": "USD",
 			"status": "Completed"
+		},
+
+		{
+			"transaction_id": "txn047",
+			"invoice_id": "inv031",
+			"date": "2025-12-12",
+			"method": "Credit Card",
+			"amount": 7500,
+			"currency": "USD",
+			"status": "Completed"
+		},
+		{
+			"transaction_id": "txn048",
+			"invoice_id": "inv031",
+			"date": "2025-12-12",
+			"method": "Credit Card",
+			"amount": 7500,
+			"currency": "USD",
+			"status": "Completed"
+		},
+		{
+			"transaction_id": "txn049",
+			"invoice_id": "inv032",
+			"date": "2025-11-30",
+			"method": "Bank Transfer",
+			"amount": 3000,
+			"currency": "USD",
+			"status": "Completed"
+		},
+		{
+			"transaction_id": "txn050",
+			"invoice_id": "inv032",
+			"date": "2025-12-20",
+			"method": "Bank Transfer",
+			"amount": 2500,
+			"currency": "USD",
+			"status": "Completed"
+		},
+		{
+			"transaction_id": "txn051",
+			"invoice_id": "inv032",
+			"date": "2026-01-07",
+			"method": "PayPal",
+			"amount": 4500,
+			"currency": "USD",
+			"status": "Pending"
 		}
 	]
 }

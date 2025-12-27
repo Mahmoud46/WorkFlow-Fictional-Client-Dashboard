@@ -5,7 +5,7 @@
 		"client_id": "client123",
 		"freelancer_id": "n9X4LdAqK7T2hYfRp0z1j",
 		"submitted_at": "2025-09-12T12:28:00Z",
-		"status": "Pending",
+		"status": "Accepted",
 		"cover_letter": "With over 7 years of experience in healthcare AI and NLP, I can design and implement a reliable chatbot for symptom checking and triage. My expertise in TensorFlow and medical NLP will ensure accuracy and patient trust.",
 		"bid": {
 			"amount": 12000,
@@ -20,7 +20,7 @@
 		"client_id": "client123",
 		"freelancer_id": "a7FkDqWlM5rZ0p2YbXsT9",
 		"submitted_at": "2025-09-11T11:00:00Z",
-		"status": "Pending",
+		"status": "Accepted",
 		"cover_letter": "As a full stack developer, I can build scalable backend APIs and integrate the chatbot into multiple platforms. My experience with healthcare startups ensures robust and secure systems.",
 		"bid": {
 			"amount": 9000,
@@ -41,7 +41,7 @@
 		"client_id": "client123",
 		"freelancer_id": "ZpL8dV2wXj3kTrMnQ5yUo",
 		"submitted_at": "2025-09-09T13:20:00Z",
-		"status": "Pending",
+		"status": "Accepted",
 		"cover_letter": "I specialize in healthcare UX and can design an intuitive chatbot interface that patients will find easy to use. Accessibility and patient engagement are my priorities.",
 		"bid": {
 			"amount": 4000,
@@ -69,7 +69,7 @@
 		"client_id": "client123",
 		"freelancer_id": "sT9zLp2vQmX7aJ5nRb0Yf",
 		"submitted_at": "2025-09-05T14:30:00Z",
-		"status": "Pending",
+		"status": "Accepted",
 		"cover_letter": "I have 6 years of experience building immersive VR simulators. I can develop your training platform with Unity3D, ensuring high realism and interactive learning.",
 		"bid": {
 			"amount": 15000,
@@ -111,7 +111,7 @@
 		"client_id": "client123",
 		"freelancer_id": "pN7yWt4rXkJ0qB2mVs6Zf",
 		"submitted_at": "2025-09-01T16:00:00Z",
-		"status": "Pending",
+		"status": "Accepted",
 		"cover_letter": "As a backend developer, I can architect scalable APIs and cloud infrastructure for your VR training platform. This ensures smooth real-time interactions and system reliability.",
 		"bid": {
 			"amount": 10000,

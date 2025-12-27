@@ -17,7 +17,7 @@ export const NAV_ITEMS: { title: string; icon: IconType; path: string }[] = [
 	{ title: "Projects", icon: LuFolder, path: "/projects" },
 	{ title: "Freelancers", icon: LuUsers, path: "/freelancers" },
 	{ title: "Payments & Invoices", icon: LuCreditCard, path: "/invoices" },
-	{ title: "Proposals", icon: LuFileText, path: "/pending-proposals" },
+	{ title: "Proposals", icon: LuFileText, path: "/proposals" },
 ];
 
 export const monthsAbbName: string[] = [

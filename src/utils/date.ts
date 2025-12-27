@@ -49,3 +49,13 @@ export function getProgressPercentageWithRespect2Date(
 
 	return ((current - start) / (end - start)) * 100;
 }
+
+export function isInCurrentMonth(date: Date | string): boolean {
+	const inputDate = new Date(date);
+	const today = new Date();
+
+	return (
+		inputDate.getFullYear() === today.getFullYear() &&
+		inputDate.getMonth() === today.getMonth()
+	);
+}

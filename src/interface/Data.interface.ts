@@ -84,6 +84,7 @@ export interface IProject {
 	milestones: IMilestone[];
 	invoices: string[];
 	cover_image: string;
+	freelancers: { freelancer_id: string; signed_at: string }[];
 }
 
 export interface IRecentActivityItem {
@@ -115,7 +116,7 @@ export interface IProposal {
 	client_id: string;
 	freelancer_id: string;
 	submitted_at: string;
-	status: "Pending";
+	status: TPropsalStatus;
 	cover_letter: string;
 	bid: {
 		amount: number;
@@ -200,3 +201,4 @@ export type TPaymentMethod =
 	| "Credit Card";
 export type TTransactionStatus = "Completed" | "Pending";
 export type TProfileVisibleTo = "Everyone" | "Freelancers Only" | "Private";
+export type TPropsalStatus = "Pending" | "Accepted" | "Rejected";

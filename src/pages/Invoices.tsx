@@ -28,6 +28,7 @@ export default function Invoices(): ReactNode {
 									e.target.value as "All" | TInvoiceStatus
 								)
 							}
+							value={invoicesStatusSelected}
 						>
 							<option value="All" className="text-gray-950">
 								All

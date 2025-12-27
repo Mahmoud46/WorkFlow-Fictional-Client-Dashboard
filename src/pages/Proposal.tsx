@@ -39,7 +39,7 @@ export default function Proposal(): ReactNode {
 								{proposalsController.getProposal(id as string).status}
 							</p>
 							<Link
-								to="/pending-proposals"
+								to="/proposals"
 								className="glass w-fit h-fit rounded-full p-1 text-base"
 							>
 								<CgClose />
@@ -276,37 +276,40 @@ export default function Proposal(): ReactNode {
 						</div>
 					</div>
 
-					<div className="flex justify-end gap-2 mt-1">
-						<button
-							className="flex items-center gap-1 py-0.5 px-3 rounded-full 
+					{proposalsController.getProposal(id as string).status ==
+						"Pending" && (
+						<div className="flex justify-end gap-2 mt-1">
+							<button
+								className="flex items-center gap-1 py-0.5 px-3 rounded-full 
                          bg-green-500/20 text-white
                          border border-green-500/30 
                          backdrop-blur-md 
                          hover:bg-green-500/30 
                          transition cursor-pointer text-sm"
-						>
-							<LuCheck className="text-lg" />
-							Accept
-						</button>
-						<button
-							className="flex items-center gap-1 py-0.5 px-3 rounded-full 
+							>
+								<LuCheck className="text-lg" />
+								Accept
+							</button>
+							<button
+								className="flex items-center gap-1 py-0.5 px-3 rounded-full 
                          bg-red-500/20 text-white 
                          border border-red-500/30 
                          backdrop-blur-md 
                          hover:bg-red-500/30 
                          transition cursor-pointer text-sm"
-						>
-							<LuX className="text-lg" />
-							Reject
-						</button>
-					</div>
+							>
+								<LuX className="text-lg" />
+								Reject
+							</button>
+						</div>
+					)}
 				</div>
 			)}
 			{!proposalsController.include(id as string) && (
 				<div className="glass w-fit max-h-[90%] overflow-auto p-4 rounded-2xl flex gap-2 flex-col">
 					<div className="sticky top-0 flex w-full justify-end">
 						<Link
-							to="/pending-proposals"
+							to="/proposals"
 							className="glass w-fit h-fit rounded-full p-1 text-base"
 						>
 							<CgClose />

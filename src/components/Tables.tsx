@@ -148,7 +148,7 @@ export function PendingProposalsOverviewTable(): ReactNode {
 								{moment(proposal.submitted_at).fromNow()}
 							</td>
 							<td className="px-4 py-2">
-								<Link to={`/pending-proposals/${proposal.proposal_id}`}>
+								<Link to={`/proposals/${proposal.proposal_id}`}>
 									<LuFileSearch className="transition duration-300 hover:text-blue-300" />
 								</Link>
 							</td>
@@ -520,11 +520,17 @@ export function ProposalsTabel({
 							<td className="px-4 py-2 text-sm text-white">
 								{proposal.bid.estimated_days} days
 							</td>
-							<td className="px-4 py-2 text-sm text-yellow-300">
+							<td
+								className={`px-4 py-2 text-sm ${
+									proposal.status == "Pending"
+										? "text-yellow-300"
+										: "text-green-300"
+								}`}
+							>
 								{proposal.status}
 							</td>
 							<td className="px-4 py-2">
-								<Link to={`/pending-proposals/${proposal.proposal_id}`}>
+								<Link to={`/proposals/${proposal.proposal_id}`}>
 									<LuFileSearch className="text-xl transition duration-300 hover:text-blue-300" />
 								</Link>
 							</td>

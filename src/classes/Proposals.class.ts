@@ -8,6 +8,7 @@ interface IPendingProposalsStats {
 export class Proposals {
 	proposals: IProposal[];
 	pending: IProposal[];
+	accepted: IProposal[];
 	pendingProposalsStat: IPendingProposalsStats;
 	protected indexedProposals: Record<string, IProposal>;
 	protected proposalsIds: string[];
@@ -15,6 +16,7 @@ export class Proposals {
 	constructor() {
 		this.proposals = [];
 		this.pending = [];
+		this.accepted = [];
 		this.pendingProposalsStat = { total_proposals: 0, recent_proposals: 0 };
 		this.indexedProposals = {};
 		this.proposalsIds = [];
@@ -23,6 +25,7 @@ export class Proposals {
 	init(proposals: IProposal[]) {
 		this.proposals = proposals;
 		this.pending = proposals.filter((proposal) => proposal.status == "Pending");
+		this.accepted = proposals.filter((proposal) => proposal.status == "Accepted");
 		this.pendingProposalsStat = this.getPendingProposalsStats();
 		this.indexedProposals = this.getIndexedProposals();
 		this.proposalsIds = this.getProposalsIds();

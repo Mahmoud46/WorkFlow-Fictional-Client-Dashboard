@@ -303,10 +303,31 @@
 			"project_id": "prj010",
 			"issue_date": "2025-12-10",
 			"due_date": "2025-12-25",
-			"status": "Pending",
+			"status": "Paid",
 			"amount": 25000,
 			"currency": "USD",
 			"transaction_ids": ["txn042", "txn043"]
+		},
+
+		{
+			"invoice_id": "inv031",
+			"project_id": "proj11",
+			"issue_date": "2025-10-01",
+			"due_date": "2025-10-14",
+			"status": "Paid",
+			"amount": 15000,
+			"currency": "USD",
+			"transaction_ids": ["txn047", "txn048"]
+		},
+		{
+			"invoice_id": "inv032",
+			"project_id": "proj11",
+			"issue_date": "2025-11-01",
+			"due_date": "2026-01-10",
+			"status": "Pending",
+			"amount": 10000,
+			"currency": "USD",
+			"transaction_ids": ["txn049", "txn050", "txn051"]
 		}
 	]
 }

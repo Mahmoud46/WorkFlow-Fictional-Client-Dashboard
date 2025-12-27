@@ -1,5 +1,6 @@
 import { currencyRates } from "../constants/constants";
 import type { IProject, TProjectStatus } from "../interface/Data.interface";
+import { isInCurrentMonth } from "../utils/date";
 
 interface IProjectStatusCategoryWithColor {
 	category: TProjectStatus;
@@ -115,28 +116,20 @@ export class Projects {
 
 	protected getProjectsFreelancers(): IProjectsFreelancers {
 		const totalFreelancers: string[] = [];
-		const pendingFreelancers: string[] = [];
-		const activeFreelancers: string[] = [];
+		const recentlyHired: string[] = [];
 
 		for (const project of this.projects) {
 			if (project.status == "Completed") continue;
-
 			totalFreelancers.push(...project.freelancer_ids);
 
-			if (project.status == "Pending")
-				pendingFreelancers.push(...project.freelancer_ids);
-			else if (project.status == "In Progress")
-				activeFreelancers.push(...project.freelancer_ids);
+			for (const freelancer of project.freelancers)
+				if (isInCurrentMonth(freelancer.signed_at))
+					recentlyHired.push(freelancer.freelancer_id);
 		}
-
-		const newFreelancers = [
-			...pendingFreelancers.filter((x) => !activeFreelancers.includes(x)),
-			...activeFreelancers.filter((x) => !pendingFreelancers.includes(x)),
-		];
 
 		return {
 			total_freelancers: [...new Set(totalFreelancers)].length,
-			recently_hired: [...new Set(newFreelancers)].length,
+			recently_hired: [...new Set(recentlyHired)].length,
 		};
 	}
 

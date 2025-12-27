@@ -46,7 +46,7 @@ export default function App(): ReactNode {
 							<Route path="settings" element={<AccountSettings />} />
 						</Route>
 
-						<Route path="/pending-proposals" element={<Proposals />}>
+						<Route path="/proposals" element={<Proposals />}>
 							<Route path=":id" element={<Proposal />} />
 						</Route>
 					</Routes>

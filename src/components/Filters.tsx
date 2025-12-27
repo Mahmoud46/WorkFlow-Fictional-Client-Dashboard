@@ -4,10 +4,12 @@ import { LuFilter } from "react-icons/lu";
 
 export default function FilterProjects({
 	setProjectStatus,
+	projectStatus,
 }: {
 	setProjectStatus: React.Dispatch<
 		React.SetStateAction<TProjectStatus | "All">
 	>;
+	projectStatus: TProjectStatus | "All";
 }): ReactNode {
 	return (
 		<div className="flex glass relative rounded-full overflow-hidden pr-1">
@@ -18,6 +20,7 @@ export default function FilterProjects({
 				onChange={(e) =>
 					setProjectStatus(e.target.value as TProjectStatus | "All")
 				}
+				value={projectStatus}
 				className="p-2 pl-8 text-sm cursor-pointer outline-0"
 			>
 				<option value="All" className="text-gray-950">

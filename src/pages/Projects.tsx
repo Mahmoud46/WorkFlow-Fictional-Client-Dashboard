@@ -32,7 +32,10 @@ export default function Projects(): ReactNode {
 				<h1 className="text-4xl">Projects</h1>
 				<ProjectsStats />
 				<div className="flex items-center gap-2 justify-end">
-					<FilterProjects setProjectStatus={setProjectStatus} />
+					<FilterProjects
+						setProjectStatus={setProjectStatus}
+						projectStatus={projectStatus}
+					/>
 					<DisplayViewListGrid isGrid={isGrid} setIsGrid={setIsGrid} />
 				</div>
 			</div>

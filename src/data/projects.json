@@ -20,6 +20,15 @@
 				"frlT2jVp9",
 				"frlP9wDv5"
 			],
+			"freelancers": [
+				{ "freelancer_id": "frlZ8pQk1", "signed_at": "2025-04-12" },
+				{ "freelancer_id": "frlU2zJt4", "signed_at": "2025-04-15" },
+				{ "freelancer_id": "frlM5xTn7", "signed_at": "2025-04-20" },
+				{ "freelancer_id": "frlH9cLq4", "signed_at": "2025-04-22" },
+				{ "freelancer_id": "frlJ6vHq2", "signed_at": "2025-04-25" },
+				{ "freelancer_id": "frlT2jVp9", "signed_at": "2025-04-26" },
+				{ "freelancer_id": "frlP9wDv5", "signed_at": "2025-04-28" }
+			],
 			"milestones": [
 				{
 					"milestone_id": "ms001",
@@ -241,6 +250,14 @@
 				"frlT2jVp9",
 				"frlN3yGq8",
 				"frlJ6vHq2"
+			],
+			"freelancers": [
+				{ "freelancer_id": "frlQ7nDs6", "signed_at": "2025-04-18" },
+				{ "freelancer_id": "frlM5xTn7", "signed_at": "2025-04-20" },
+				{ "freelancer_id": "frlY9bTw3", "signed_at": "2025-04-23" },
+				{ "freelancer_id": "frlT2jVp9", "signed_at": "2025-04-25" },
+				{ "freelancer_id": "frlN3yGq8", "signed_at": "2025-04-28" },
+				{ "freelancer_id": "frlJ6vHq2", "signed_at": "2025-05-02" }
 			],
 			"milestones": [
 				{
@@ -588,6 +605,14 @@
 				"frlJ6vHq2",
 				"frlL7hQm8"
 			],
+			"freelancers": [
+				{ "freelancer_id": "frlR5eBn1", "signed_at": "2025-08-20" },
+				{ "freelancer_id": "frlM5xTn7", "signed_at": "2025-08-22" },
+				{ "freelancer_id": "frlQ7nDs6", "signed_at": "2025-08-25" },
+				{ "freelancer_id": "frlY9bTw3", "signed_at": "2025-08-28" },
+				{ "freelancer_id": "frlJ6vHq2", "signed_at": "2025-09-02" },
+				{ "freelancer_id": "frlL7hQm8", "signed_at": "2025-09-05" }
+			],
 			"milestones": [
 				{
 					"milestone_id": "ms020",
@@ -733,6 +758,16 @@
 				"frlF5kNr1",
 				"frlC1pKs2",
 				"frlJ6vHq2"
+			],
+			"freelancers": [
+				{ "freelancer_id": "frlZ8pQk1", "signed_at": "2025-08-25" },
+				{ "freelancer_id": "frlU2zJt4", "signed_at": "2025-08-27" },
+				{ "freelancer_id": "frlM5xTn7", "signed_at": "2025-08-30" },
+				{ "freelancer_id": "frlH9cLq4", "signed_at": "2025-09-02" },
+				{ "freelancer_id": "frlP9wDv5", "signed_at": "2025-09-05" },
+				{ "freelancer_id": "frlF5kNr1", "signed_at": "2025-09-08" },
+				{ "freelancer_id": "frlC1pKs2", "signed_at": "2025-09-10" },
+				{ "freelancer_id": "frlJ6vHq2", "signed_at": "2025-09-12" }
 			],
 			"milestones": [
 				{
@@ -921,6 +956,14 @@
 				"frlB3cGm7",
 				"frlK6rTy3"
 			],
+			"freelancers": [
+				{ "freelancer_id": "frlS8nWp5", "signed_at": "2025-08-30" },
+				{ "freelancer_id": "frlM5xTn7", "signed_at": "2025-09-01" },
+				{ "freelancer_id": "frlZ8pQk1", "signed_at": "2025-09-03" },
+				{ "freelancer_id": "frlY9bTw3", "signed_at": "2025-09-05" },
+				{ "freelancer_id": "frlB3cGm7", "signed_at": "2025-09-08" },
+				{ "freelancer_id": "frlK6rTy3", "signed_at": "2025-09-10" }
+			],
 			"milestones": [
 				{
 					"milestone_id": "ms033",
@@ -1089,6 +1132,14 @@
 				"frlU2zJt4",
 				"frlH9cLq4",
 				"frlJ6vHq2"
+			],
+			"freelancers": [
+				{ "freelancer_id": "frlX4mJp6", "signed_at": "2025-09-01" },
+				{ "freelancer_id": "frlN3yGq8", "signed_at": "2025-09-03" },
+				{ "freelancer_id": "frlM5xTn7", "signed_at": "2025-09-05" },
+				{ "freelancer_id": "frlU2zJt4", "signed_at": "2025-09-08" },
+				{ "freelancer_id": "frlH9cLq4", "signed_at": "2025-09-10" },
+				{ "freelancer_id": "frlJ6vHq2", "signed_at": "2025-09-12" }
 			],
 			"milestones": [
 				{
@@ -1267,6 +1318,14 @@
 				"frlC1pKs2",
 				"frlF5kNr1",
 				"frlJ6vHq2"
+			],
+			"freelancers": [
+				{ "freelancer_id": "frlW7fLz9", "signed_at": "2025-09-05" },
+				{ "freelancer_id": "frlH9cLq4", "signed_at": "2025-09-08" },
+				{ "freelancer_id": "frlZ8pQk1", "signed_at": "2025-09-10" },
+				{ "freelancer_id": "frlC1pKs2", "signed_at": "2025-09-12" },
+				{ "freelancer_id": "frlF5kNr1", "signed_at": "2025-09-15" },
+				{ "freelancer_id": "frlJ6vHq2", "signed_at": "2025-09-18" }
 			],
 			"milestones": [
 				{
@@ -1447,6 +1506,15 @@
 				"frlY9bTw3",
 				"frlJ6vHq2",
 				"frlL7hQm8"
+			],
+			"freelancers": [
+				{ "freelancer_id": "frlU2zJt4", "signed_at": "2025-09-10" },
+				{ "freelancer_id": "frlM5xTn7", "signed_at": "2025-09-12" },
+				{ "freelancer_id": "frlN3yGq8", "signed_at": "2025-09-15" },
+				{ "freelancer_id": "frlK6rTy3", "signed_at": "2025-09-18" },
+				{ "freelancer_id": "frlY9bTw3", "signed_at": "2025-09-20" },
+				{ "freelancer_id": "frlJ6vHq2", "signed_at": "2025-09-22" },
+				{ "freelancer_id": "frlL7hQm8", "signed_at": "2025-09-25" }
 			],
 			"milestones": [
 				{
@@ -1658,6 +1726,18 @@
 				"frlK6rTy3",
 				"frlL7hQm8",
 				"frlF5kNr1"
+			],
+			"freelancers": [
+				{ "freelancer_id": "frlZ8pQk1", "signed_at": "2025-09-12" },
+				{ "freelancer_id": "frlQ7nDs6", "signed_at": "2025-09-14" },
+				{ "freelancer_id": "frlM5xTn7", "signed_at": "2025-09-16" },
+				{ "freelancer_id": "frlH9cLq4", "signed_at": "2025-09-18" },
+				{ "freelancer_id": "frlJ6vHq2", "signed_at": "2025-09-20" },
+				{ "freelancer_id": "frlT2jVp9", "signed_at": "2025-09-22" },
+				{ "freelancer_id": "frlP9wDv5", "signed_at": "2025-09-24" },
+				{ "freelancer_id": "frlK6rTy3", "signed_at": "2025-09-26" },
+				{ "freelancer_id": "frlL7hQm8", "signed_at": "2025-09-28" },
+				{ "freelancer_id": "frlF5kNr1", "signed_at": "2025-09-30" }
 			],
 			"milestones": [
 				{
@@ -1899,7 +1979,7 @@
 				{
 					"milestone_id": "ms067",
 					"title": "Frontend Enhancements",
-					"status": "In Progress",
+					"status": "Completed",
 					"due_date": "2025-12-25",
 					"freelancer_id": "frlQ7nDs6",
 					"tasks": [
@@ -1914,7 +1994,7 @@
 							"due_date": "2025-12-23"
 						},
 						{
-							"status": "In Progress",
+							"status": "Completed",
 							"description": "Polish UI with animations & micro-interactions",
 							"due_date": "2025-12-25"
 						}
@@ -1938,13 +2018,18 @@
 			"categories": ["AI", "Healthcare", "Chatbot"],
 			"freelancer_ids": [
 				"n9X4LdAqK7T2hYfRp0z1j",
-				"a7FkDqWlM5rZ0p2YbXsT9",
-				"ZpL8dV2wXj3kTrMnQ5yUo"
+				"ZpL8dV2wXj3kTrMnQ5yUo",
+				"a7FkDqWlM5rZ0p2YbXsT9"
+			],
+			"freelancers": [
+				{ "freelancer_id": "n9X4LdAqK7T2hYfRp0z1j", "signed_at": "2025-09-05" },
+				{ "freelancer_id": "ZpL8dV2wXj3kTrMnQ5yUo", "signed_at": "2025-10-15" },
+				{ "freelancer_id": "a7FkDqWlM5rZ0p2YbXsT9", "signed_at": "2025-12-03" }
 			],
 			"milestones": [
 				{
-					"milestone_id": "ms068",
-					"title": "Requirements Gathering & Design",
+					"milestone_id": "ms068a",
+					"title": "Requirements Gathering",
 					"status": "Completed",
 					"due_date": "2025-10-15",
 					"freelancer_id": "n9X4LdAqK7T2hYfRp0z1j",
@@ -1952,56 +2037,65 @@
 						{
 							"description": "Define chatbot objectives and scope",
 							"status": "Completed",
-							"due_date": "2025-10-02"
+							"due_date": "2025-10-10"
 						},
 						{
 							"description": "Gather healthcare compliance requirements",
 							"status": "Completed",
-							"due_date": "2025-10-06"
-						},
+							"due_date": "2025-10-15"
+						}
+					]
+				},
+				{
+					"milestone_id": "ms068b",
+					"title": "Design",
+					"status": "Completed",
+					"due_date": "2025-10-30",
+					"freelancer_id": "ZpL8dV2wXj3kTrMnQ5yUo",
+					"tasks": [
 						{
 							"description": "Design conversation flow and intents",
 							"status": "Completed",
-							"due_date": "2025-10-10"
+							"due_date": "2025-10-25"
 						},
 						{
 							"description": "Prepare UI/UX wireframes for chatbot interface",
 							"status": "Completed",
-							"due_date": "2025-10-13"
+							"due_date": "2025-10-30"
 						}
 					]
 				},
 				{
 					"milestone_id": "ms069",
 					"title": "Prototype Development",
-					"status": "Completed",
-					"due_date": "2025-11-30",
+					"status": "In Progress",
+					"due_date": "2026-01-05",
 					"freelancer_id": "a7FkDqWlM5rZ0p2YbXsT9",
 					"tasks": [
 						{
 							"description": "Set up development environment",
 							"status": "Completed",
-							"due_date": "2025-10-20"
+							"due_date": "2025-11-01"
 						},
 						{
 							"description": "Integrate NLP model for symptom checking",
 							"status": "Completed",
-							"due_date": "2025-11-05"
+							"due_date": "2025-11-15"
 						},
 						{
 							"description": "Develop backend API for chatbot",
 							"status": "Completed",
-							"due_date": "2025-11-15"
+							"due_date": "2025-12-05"
 						},
 						{
 							"description": "Build frontend chatbot interface",
-							"status": "Completed",
-							"due_date": "2025-11-25"
+							"status": "In Progress",
+							"due_date": "2025-12-30"
 						}
 					]
 				}
 			],
-			"invoices": [],
+			"invoices": ["inv030", "inv032"],
 			"cover_image": "https://example.com/images/healthcare-chatbot.jpg"
 		},
 		{
@@ -2016,12 +2110,16 @@
 			"currency": "EUR",
 			"categories": ["VR", "Training", "Education"],
 			"freelancer_ids": ["sT9zLp2vQmX7aJ5nRb0Yf", "pN7yWt4rXkJ0qB2mVs6Zf"],
+			"freelancers": [
+				{ "freelancer_id": "sT9zLp2vQmX7aJ5nRb0Yf", "signed_at": "2025-11-25" },
+				{ "freelancer_id": "pN7yWt4rXkJ0qB2mVs6Zf", "signed_at": "2025-12-20" }
+			],
 			"milestones": [
 				{
 					"milestone_id": "m12-1",
 					"title": "VR Environment Design",
-					"status": "Completed",
-					"due_date": "2025-12-20",
+					"status": "In Progress",
+					"due_date": "2026-01-01",
 					"freelancer_id": "sT9zLp2vQmX7aJ5nRb0Yf",
 					"tasks": [
 						{
@@ -2032,12 +2130,12 @@
 						{
 							"description": "Create 3D models and textures",
 							"status": "Completed",
-							"due_date": "2025-12-12"
+							"due_date": "2025-12-25"
 						},
 						{
 							"description": "Design VR environment interactions",
 							"status": "Completed",
-							"due_date": "2025-12-18"
+							"due_date": "2025-12-30"
 						}
 					]
 				},
@@ -2045,7 +2143,7 @@
 					"milestone_id": "m12-2",
 					"title": "Interactive Module Development",
 					"status": "In Progress",
-					"due_date": "2026-02-10",
+					"due_date": "2026-03-15",
 					"freelancer_id": "pN7yWt4rXkJ0qB2mVs6Zf",
 					"tasks": [
 						{
