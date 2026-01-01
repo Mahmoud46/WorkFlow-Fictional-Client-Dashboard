@@ -43,7 +43,7 @@ export class Transactions {
 		this.transactions = transactions;
 		this.transactionsIds = this.up2NowTransactions();
 		this.expenses = this.getExpenses();
-		this.monthlyExpenses = this.getMonthlyExpenses();
+		this.monthlyExpenses = this.getMonthlyExpenses(2025); // Show data for 2025
 		this.expensesStats = this.getExpensesStats();
 		this.indexedTransactions = this.getIndexedTransactions();
 	}

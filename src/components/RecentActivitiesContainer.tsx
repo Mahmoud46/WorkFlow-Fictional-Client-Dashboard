@@ -104,7 +104,7 @@ export default function RecentActivitiesContainer({
 
 	useEffect(() => {
 		if (recentActivities) {
-			setActivities(getRecentActivities(recentActivities));
+			setActivities(getRecentActivities(recentActivities, 2025));
 		}
 	}, [recentActivities]);
 	return (
